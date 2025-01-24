@@ -1,7 +1,7 @@
 name: Scrape Books
 
 on:
-  workflow_dispatch: # Run manually or schedule this job
+  workflow_dispatch: # Manually triggered workflow
 
 jobs:
   scrape-books:
@@ -20,22 +20,8 @@ jobs:
       - name: Install dependencies
         run: bundle install
 
-      - name: Retry the scraper
-        run: |
-          attempt=0
-          max_attempts=3
-          success=false
-          while [ $attempt -lt $max_attempts ]; do
-            attempt=$((attempt + 1))
-            echo "Attempt $attempt of $max_attempts"
-            ruby scrape_books.rb && success=true && break
-            echo "Scraper failed on attempt $attempt. Retrying..."
-            sleep 10 # Delay before retrying
-          done
-          if [ "$success" = false ]; then
-            echo "Scraper failed after $max_attempts attempts."
-            exit 1
-          fi
+      - name: Run the scraper
+        run: ruby scrape_books.rb
 
       - name: Upload final artifacts
         uses: actions/upload-artifact@v4
