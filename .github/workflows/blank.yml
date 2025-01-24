@@ -8,13 +8,9 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 310 # Max duration for the job is 5 hours and 10 minutes
 
-    strategy:
-      fail-fast: false
-      max-attempts: 3 # Retry the job up to 3 times if it fails
-
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
@@ -24,11 +20,25 @@ jobs:
       - name: Install dependencies
         run: bundle install
 
-      - name: Run the scraper
-        run: ruby scrape_books.rb
+      - name: Retry the scraper
+        run: |
+          attempt=0
+          max_attempts=3
+          success=false
+          while [ $attempt -lt $max_attempts ]; do
+            attempt=$((attempt + 1))
+            echo "Attempt $attempt of $max_attempts"
+            ruby scrape_books.rb && success=true && break
+            echo "Scraper failed on attempt $attempt. Retrying..."
+            sleep 10 # Delay before retrying
+          done
+          if [ "$success" = false ]; then
+            echo "Scraper failed after $max_attempts attempts."
+            exit 1
+          fi
 
       - name: Upload final artifacts
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: scraped-books-artifacts
           path: artifacts.tar.gz
