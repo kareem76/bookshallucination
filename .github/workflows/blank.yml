@@ -1,0 +1,29 @@
+name: Scrape Books
+
+on:
+  workflow_dispatch: # Run manually or on schedule
+
+jobs:
+  scrape-books:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.1
+
+      - name: Install dependencies
+        run: bundle install
+
+      - name: Run the scraper
+        run: ruby scrape_books.rb
+
+      - name: Upload final artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: scraped-books-artifacts
+          path: artifacts.tar.gz
