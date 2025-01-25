@@ -85,14 +85,17 @@ class BookScraper
         @csv << [title, author, genre, book_url, image_url, year, publisher, isbn, usd_price, current_page_url]
         @json << { title: title, author: author, genre: genre, book_url: book_url, image: image_url, year: year,
                    publisher: publisher, isbn: isbn, price_in_usd: usd_price, page_url: current_page_url }
-        File.open(@json_file, 'a
- { |f| f.write(JSON.generate(@json.last) + "\n") }
+        File.open(@json_file, 'a') { |f| f.write(JSON.generate(@json.last) + "\n") }
+
+        # Save progress after processing each book
+        save_progress(book_url)
       end
 
       # Check for "next page" button
       next_button = begin
         first('img[src$="arrowr.png"]', visible: true)
       rescue StandardError
+
         nil
       end
       if next_button.nil?
