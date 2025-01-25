@@ -21,21 +21,16 @@ jobs:
       run: |
         gem install bundler
         bundle install
-      env:
-        BUNDLE_GEMFILE: ${{ github.workspace }}/Gemfile
 
     - name: Start Scraper
       run: |
-        for ((i=0; i<20; i++)); do  # 20 iterations (5 hours total, 15 minutes per iteration)
-          timestamp=$(date +"%Y%m%d_%H%M%S")
-          json_file="books_${timestamp}.json"
-          ruby scrape_books.rb --output $json_file
-          if [ -f "$json_file" ]; then
-            echo "JSON file $json_file created. Uploading..."
-            gh run upload-artifact --name "books_${timestamp}" --path "$json_file"
-          fi
-          sleep 900 # Wait 15 minutes (900 seconds) before the next iteration
-        done
-      env:
-        BUNDLE_GEMFILE: ${{ github.workspace }}/Gemfile
-        RUBYLIB: ${{ github.workspace }}/vendor/bundle/ruby/3.1.0
+        # Run the scraper script and generate the JSON file
+        timestamp=$(date +"%Y%m%d_%H%M%S")
+        json_file="books_${timestamp}.json"
+        bundle exec ruby scrape_books.rb --output $json_file  # Run with bundle exec
+        
+        # If the JSON file is generated, upload it
+        if [ -f "$json_file" ]; then
+          echo "JSON file $json_file created. Uploading..."
+          gh run upload-artifact --name "books_${timestamp}" --path "$json_file"
+        fi
