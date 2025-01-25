@@ -17,8 +17,11 @@ jobs:
         bundler-cache: true
 
     - name: Install Dependencies
-      run: |
-        bundle install
+    
+        run: |
+          gem install bundler
+          bundle install
+       
 
     - name: Start Scraper
       run: |
