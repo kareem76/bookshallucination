@@ -8,40 +8,35 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4
+    - name: Checkout Repository
+      uses: actions/checkout@v4
 
-      - name: Set up Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: 3.1
-          bundler-cache: true
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: 3.1
+        bundler-cache: true
 
-      - name: Install Dependencies
-        run: |
-          gem install bundler
-          bundle config set --local path 'vendor/bundle'
-          bundle install
+    - name: Install Dependencies
+      run: |
+        gem install bundler
+        bundle install
+      env:
+        BUNDLE_GEMFILE: ${{ github.workspace }}/Gemfile
 
-      - name: Start Scraper
-        env:
-          BUNDLE_GEMFILE: ${{ github.workspace }}/Gemfile
-          RUBYLIB: ${{ github.workspace }}/vendor/bundle/ruby/3.1.0
-        run: |
-          end_time=$(( $(date +%s) + 18000 )) # Current time + 5 hours (18000 seconds)
-          while [ $(date +%s) -lt $end_time ]; do
-            timestamp=$(date +"%Y%m%d_%H%M%S")
-            json_file="books_${timestamp}.json"
-            ruby scrape_books.rb --output $json_file
-            if [ -f "$json_file" ]; then
-              echo "JSON file $json_file created. Uploading..."
-              mv $json_file artifacts/
-            fi
-            sleep 900 # Wait 15 minutes (900 seconds) before the next iteration
-          done
-
-      - name: Upload JSON Artifacts
-        uses: actions/upload-artifact@v3
-        with:
-          name: scraped-jsons
-          path: artifacts/
+    - name: Start Scraper
+      run: |
+        end_time=$(( $(date +%s) + 18000 )) # Current time + 5 hours (18000 seconds)
+        while [ $(date +%s) -lt $end_time ]; do
+          timestamp=$(date +"%Y%m%d_%H%M%S")
+          json_file="books_${timestamp}.json"
+          ruby scrape_books.rb --output $json_file
+          if [ -f "$json_file" ]; then
+            echo "JSON file $json_file created. Uploading..."
+            gh run upload-artifact --name "books_${timestamp}" --path "$json_file"
+          fi
+          sleep 900 # Wait 15 minutes (900 seconds) before the next iteration
+        done
+      env:
+        BUNDLE_GEMFILE: ${{ github.workspace }}/Gemfile
+        RUBYLIB: ${{ github.workspace }}/vendor/bundle/ruby/3.1.0
