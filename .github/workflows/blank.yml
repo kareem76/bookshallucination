@@ -24,10 +24,16 @@ jobs:
 
       - name: Run the scraper
         run: |
-          ruby scrape_books.rb  # Replace with the actual path to your Ruby script
+          ruby path/to/your_script.rb  # Replace with the actual path to your Ruby script
 
       - name: Upload JSON artifact
         uses: actions/upload-artifact@v4
         with:
           name: generated-json
           path: 7adith.json  # Path to the generated JSON file
+
+      - name: Upload progress artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: progress-file
+          path: progress.txt  # Path to the progress file
