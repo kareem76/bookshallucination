@@ -24,7 +24,7 @@ jobs:
 
       - name: Run the scraper
         run: |
-          ruby path/to/your_script.rb  # Replace with the actual path to your Ruby script
+          ruby scrape_books.rb  # Replace with the actual path to your Ruby script
 
       - name: Upload JSON artifact
         uses: actions/upload-artifact@v4
