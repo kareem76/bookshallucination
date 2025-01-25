@@ -26,8 +26,7 @@ jobs:
 
     - name: Start Scraper
       run: |
-        end_time=$(( $(date +%s) + 18000 )) # Current time + 5 hours (18000 seconds)
-        while [ $(date +%s) -lt $end_time ]; do
+        for ((i=0; i<20; i++)); do  # 20 iterations (5 hours total, 15 minutes per iteration)
           timestamp=$(date +"%Y%m%d_%H%M%S")
           json_file="books_${timestamp}.json"
           ruby scrape_books.rb --output $json_file
