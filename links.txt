@@ -1,8 +1,30 @@
-https://www.neelwafurat.com/browsel1.aspx?cat=05&subcat=29&search=books قيم وسلوكيات
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=05&subcat=04&search=books كتب تعليمية
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=05&subcat=33&search=books كتب صامتة
-https://www.neelwafurat.com/browsel1.aspx?cat=05&subcat=28&search=books مشاعر
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=05&subcat=22&search=books مغامرات
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=05&subcat=13&search=books مهن
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=05&subcat=17&search=books هوايات
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=05&subcat=10&search=books وطن وهجرة
+https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=05&l3subcat=01&search=books&Page=1 الفقه وأصوله|أصول الفقه
+https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=05&l3subcat=02&search=books&Page=1 الفقه وأصوله|أحكام فقهية
+https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=05&l3subcat=03&search=books&Page=1 الفقه وأصوله|مذاهب إسلامية
+https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=05&l3subcat=04&search=books&Page=1 الفقه وأصوله|فتاوى
+https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=05&l3subcat=05&search=books&Page=1 الفقه وأصوله|عام
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=16&subcat=01&l2subcat=09 القرآن وعلومه
+https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=09&l3subcat=01&search=books&Page=1 القرآن وعلومه|تفسير القرآن
+https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=09&l3subcat=02&search=books&Page=1 القرآن وعلومه|التجويد والقراءات
+https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=09&l3subcat=03&search=books&Page=1 القرآن وعلومه|إعجاز القرآن
+https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=09&l3subcat=04&search=books&Page=1 القرآن وعلومه|دراسات قرآنية
+https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=09&l3subcat=05&search=books&Page=1 القرآن وعلومه|خواص وأسرار وفضائل
+https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=09&l3subcat=06&search=books&Page=1 القرآن وعلومه|قصص القرآن
+https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=09&l3subcat=07&search=books&Page=1 القرآن وعلومه|عام
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=16&subcat=01&l2subcat=06 المجتمع الإسلامي
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=16&subcat=01&l2subcat=13 المساجد والمقدسات
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=16&subcat=01&l2subcat=07 النظام السياسي الإسلامي
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=16&subcat=01&l2subcat=16 تراث
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=16&subcat=01&l2subcat=14 تراجم وسير
+https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=14&l3subcat=01&search=books&Page=1 تراجم وسير|صحابة
+https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=14&l3subcat=02&search=books&Page=1 تراجم وسير|صحابيات
+https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=14&l3subcat=03&search=books&Page=1 تراجم وسير|تابعين
+https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=14&l3subcat=04&search=books&Page=1 تراجم وسير|رجال حديث
+https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=14&l3subcat=05&search=books&Page=1 تراجم وسير|رجال دعوة
+https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=14&l3subcat=06&search=books&Page=1 تراجم وسير|فقهاء
+https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=14&l3subcat=07&search=books&Page=1 تراجم وسير|خلفاء
+https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=14&l3subcat=08&search=books&Page=1 تراجم وسير|عام
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=16&subcat=01&l2subcat=21 تربويات
+https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=21&l3subcat=01&search=books&Page=1 تربويات|ثقافة إسلامية
+https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=21&l3subcat=02&search=books&Page=1 تربويات|الأخلاق والآداب
+https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=21&l3subcat=03&search=books&Page=1 تربويات|عام
