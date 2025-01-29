@@ -1,11 +1,16 @@
-https://www.neelwafurat.com/browsel1.aspx?cat=01&subcat=02&search=books القواعد
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=01&subcat=02&l2subcat=02 القواعد|الإملاء
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=01&subcat=02&l2subcat=03 القواعد|بلاغة
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=01&subcat=02&l2subcat=01 القواعد|صرف ونحو
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=01&subcat=04&search=books ترجمة
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=01&subcat=05&search=books دراسات لغوية
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=01&subcat=08&search=books عام
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=01&subcat=01&search=books علم اللغة
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=01&subcat=07&search=books فن الكتابة
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=01&subcat=06&search=books لسانيات
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=01&subcat=03&search=books لغات أجنبية
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=10&subcat=13&search=books أدب إسلامي
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=10&subcat=15&search=books أدب رحلات
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=10&subcat=22&search=books أدب ساخر
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=10&subcat=11&search=books أدب عالمي
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=10&subcat=09&search=books أعمال كاملة
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=10&subcat=06&search=books أمثال
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=10&subcat=17&search=books الأدب العربي
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=10&subcat=10&search=books الأدب المهجري
+https://www.neelwafurat.com/browsel1.aspx?cat=10&subcat=20&search=books الخطب
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=10&subcat=20&l2subcat=03 الخطب|إسلامية
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=10&subcat=20&l2subcat=01 الخطب|المناظرات
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=10&subcat=20&l2subcat=04 الخطب|عام
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=10&subcat=20&l2subcat=02 الخطب|مقالات
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=10&subcat=18&search=books تاريخ الأدب
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=10&subcat=07&search=books دراسات أدبية
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=10&subcat=16&search=books رسائل
