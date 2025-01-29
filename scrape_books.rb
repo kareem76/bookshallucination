@@ -52,7 +52,7 @@ class BookScraper
   def scrape_books(genre_url, genre)
     puts "Scraping books for genre: #{genre}"
     start_url = @last_page_url.empty? ? genre_url : @last_page_url
-    visit(start_url)
+    visit(genre_url)
 
     loop do
       current_page_url = page.current_url
