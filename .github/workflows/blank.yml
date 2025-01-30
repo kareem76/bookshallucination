@@ -24,7 +24,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          gem install capybara selenium-webdriver mechanize json
+          gem install capybara selenium-webdriver mechanize json parallel
 
       - name: Run the scraper
         run: |
