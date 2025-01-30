@@ -1,20 +1,5 @@
 https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=16&subcat=01&l2subcat=12 العقيدة وعلومها
-https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=12&l3subcat=01&search=books&Page=1 العقيدة وعلومها|الإلهيات
-https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=12&l3subcat=02&search=books&Page=1 العقيدة وعلومها|النبوات
-https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=12&l3subcat=03&search=books&Page=1 العقيدة وعلومها|الإيمان
-https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=12&l3subcat=04&search=books&Page=1 العقيدة وعلومها|عام
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=16&subcat=01&l2subcat=04 الفرق
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=16&subcat=01&l2subcat=05 الفقه وأصوله
-https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=05&l3subcat=01&search=books&Page=1 الفقه وأصوله|أصول الفقه
-https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=05&l3subcat=02&search=books&Page=1 الفقه وأصوله|أحكام فقهية
-https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=05&l3subcat=03&search=books&Page=1 الفقه وأصوله|مذاهب إسلامية
-https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=05&l3subcat=04&search=books&Page=1 الفقه وأصوله|فتاوى
-https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=05&l3subcat=05&search=books&Page=1 الفقه وأصوله|عام
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=16&subcat=01&l2subcat=09 القرآن وعلومه
-https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=09&l3subcat=01&search=books&Page=1 القرآن وعلومه|تفسير القرآن
-https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=09&l3subcat=02&search=books&Page=1 القرآن وعلومه|التجويد والقراءات
-https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=09&l3subcat=03&search=books&Page=1 القرآن وعلومه|إعجاز القرآن
-https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=09&l3subcat=04&search=books&Page=1 القرآن وعلومه|دراسات قرآنية
-https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=09&l3subcat=05&search=books&Page=1 القرآن وعلومه|خواص وأسرار وفضائل
-https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=09&l3subcat=06&search=books&Page=1 القرآن وعلومه|قصص القرآن
-https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=09&l3subcat=07&search=books&Page=1 القرآن وعلومه|عام
+https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=12&l3subcat=01&search=books العقيدة وعلومها|الإلهيات
+https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=12&l3subcat=02&search=books العقيدة وعلومها|النبوات
+https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=12&l3subcat=03&search=books العقيدة وعلومها|الإيمان
+https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=12&l3subcat=04&search=books العقيدة وعلومها|عام
