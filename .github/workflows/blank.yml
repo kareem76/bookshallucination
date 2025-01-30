@@ -1,39 +1,74 @@
 name: Scrape Books
 
 on:
-  push:
-    branches:
-      - main  # Change this to your default branch if necessary
-
+  workflow_dispatch:  # Allows manual trigger
+  
 jobs:
-  scrape:
+  scrape_part1:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout code
+      - name: Checkout repository
         uses: actions/checkout@v4
-
+        
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.0'  # Specify the Ruby version you need
+          ruby-version: 3.1
 
       - name: Install dependencies
-        run: |
-          gem install capybara selenium-webdriver mechanize json
-
-      - name: Run the scraper
-        run: |
-          ruby scrape_books.rb  # Replace with the actual path to your Ruby script
-
-      - name: Upload JSON artifact
+        run: bundle install
+        
+      - name: Run scraper for first batch
+        run: ruby scraper_books.rb links.txt
+        
+      - name: Upload results
         uses: actions/upload-artifact@v4
         with:
-          name: generated-json
-          path: 7adith.json  # Path to the generated JSON file
+          name: results-links1
+          path: books.json
 
-      - name: Upload progress artifact
+  scrape_part2:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.1
+
+      - name: Install dependencies
+        run: bundle install
+        
+      - name: Run scraper for second batch
+        run: ruby scraper_books.rb links1.txt
+        
+      - name: Upload results
         uses: actions/upload-artifact@v4
         with:
-          name: progress-file
-          path: progress.txt  # Path to the progress file
+          name: results-links2
+          path: books1.json
+
+  scrape_part3:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.1
+
+      - name: Install dependencies
+        run: bundle install
+        
+      - name: Run scraper for third batch
+        run: ruby scrape_books.rb links2.txt
+        
+      - name: Upload results
+        uses: actions/upload-artifact@v4
+        with:
+          name: results-links3
+          path: books2.json
