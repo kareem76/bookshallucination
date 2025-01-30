@@ -5,8 +5,9 @@ require 'mechanize'
 require 'csv'
 require 'json'
 require 'fileutils'
+require 'parallel'
 
-# Capybara configuration
+# Capybara Configuration
 Capybara.default_driver = :selenium_headless
 Capybara.register_driver :selenium_headless do |app|
   options = Selenium::WebDriver::Firefox::Options.new
@@ -20,20 +21,15 @@ Capybara.default_max_wait_time = 10
 class BookScraper
   include Capybara::DSL
 
-  def initialize
+  def initialize(output_prefix)
     @mechanize = Mechanize.new
-    @csv_file = '7adith.csv'
-    @json_file = '7adith.json'
-    @last_page_file = 'last_page.txt'
-    @progress_file = 'progress.txt'
+    @csv_file = "#{output_prefix}-books.csv"
+    @json_file = "#{output_prefix}-books.json"
 
-    # Create files if they don't exist
+    # Ensure output files exist
     FileUtils.touch(@csv_file) unless File.exist?(@csv_file)
     FileUtils.touch(@json_file) unless File.exist?(@json_file)
-    FileUtils.touch(@last_page_file) unless File.exist?(@last_page_file)
-    FileUtils.touch(@progress_file) unless File.exist?(@progress_file)
 
-    @last_page_url = File.read(@last_page_file).strip rescue nil
     @csv = CSV.open(@csv_file, 'a', headers: ['Title', 'Author', 'Genre', 'Book URL', 'Image', 'Year', 'Publisher', 'ISBN', 'Price (USD)', 'Page URL'])
     @json = []
   end
@@ -41,34 +37,25 @@ class BookScraper
   def extract_price(book_page)
     price_text = book_page.at('b.ourprice')&.text&.strip
     return nil unless price_text
-
     price_text.split(' ').first.to_f rescue nil
-  end
-
-  def save_progress(book_url)
-    File.open(@progress_file, 'w') { |file| file.puts book_url }
   end
 
   def scrape_books(genre_url, genre)
     puts "Scraping books for genre: #{genre}"
-    start_url = @last_page_url.empty? ? genre_url : @last_page_url
-    visit(genre_url)
+    session = Capybara::Session.new(:selenium_headless)  # New session per thread
+    session.visit(genre_url)
 
     loop do
-      current_page_url = page.current_url
-      File.write(@last_page_file, current_page_url)
+      current_page_url = session.current_url
 
-      all('.gridview .imggrid a').each do |book_link|
+      session.all('.gridview .imggrid a').each do |book_link|
         book_url = book_link['href']
         puts "Processing book: #{book_url} (Page URL: #{current_page_url})"
 
         begin
           book_page = @mechanize.get(book_url)
-        rescue Mechanize::ResponseCodeError => e
-          puts "Error accessing book URL #{book_url}: #{e.message}"
-          next
         rescue StandardError => e
-          puts "An unexpected error occurred: #{e.message}"
+          puts "Error accessing book URL #{book_url}: #{e.message}"
           next
         end
 
@@ -86,42 +73,30 @@ class BookScraper
         @json << { title: title, author: author, genre: genre, book_url: book_url, image: image_url, year: year,
                    publisher: publisher, isbn: isbn, price_in_usd: usd_price, page_url: current_page_url }
         File.open(@json_file, 'a') { |f| f.write(JSON.generate(@json.last) + "\n") }
-
-        # Save progress after processing each book
-        save_progress(book_url)
       end
 
-      # Check for "next page" button
       next_button = begin
-        first('img[src$="arrowr.png"]', visible: true)
+        session.first('img[src$="arrowr.png"]', visible: true)
       rescue StandardError
-
         nil
       end
-      if next_button.nil?
-        puts "No 'next page' button found. Moving to the next genre."
-        break # Exit the loop and move to the next genre
-      end
+      break if next_button.nil?
 
       next_button.click
-      sleep 5 # Wait for the next page to load
+      sleep 5
     end
   end
 end
 
-# Main execution
-puts "Reading links from 'links.txt'..."
-File.readlines('links.txt').each_with_index do |line, index|
-  category_url, genre = line.strip.split(' ', 2)
+# Get input file from command line argument (or default to 'links.txt')
+input_file = ARGV[0] || 'links.txt'
+output_prefix = File.basename(input_file, '.txt')  # Generate output filenames based on input file
 
-  if category_url.nil? || genre.nil?
-    puts "Skipping invalid line ##{index + 1}: #{line.inspect}"
-    next
-  end
+# Read links from the specified input file
+links = File.readlines(input_file).map(&:strip).map { |line| line.split(' ', 2) }.reject { |entry| entry.any?(&:nil?) }
 
-  scraper = BookScraper.new
+# Run with parallel processing (2 threads per job)
+Parallel.each(links, in_threads: 2) do |(category_url, genre)|
+  scraper = BookScraper.new(output_prefix)
   scraper.scrape_books(category_url, genre)
 end
-
-puts 'Scraping completed!'
-
