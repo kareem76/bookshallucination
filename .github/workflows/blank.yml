@@ -1,74 +1,43 @@
 name: Scrape Books
 
 on:
-  workflow_dispatch:  # Allows manual trigger
+  push:
+    branches:
+      - main
   
+
 jobs:
-  scrape_part1:
+  scrape:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        part: [links, links1, links2]  # Runs 3 parallel jobs
+
     steps:
-      - name: Checkout repository
+      - name: Checkout code
         uses: actions/checkout@v4
-        
+
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.1
+          ruby-version: '3.0'  # Adjust as needed
 
       - name: Install dependencies
-        run: bundle install
-        
-      - name: Run scraper for first batch
-        run: ruby scraper_books.rb links.txt
-        
-      - name: Upload results
+        run: |
+          gem install capybara selenium-webdriver mechanize json
+
+      - name: Run the scraper
+        run: |
+          ruby scrape_books.rb ${{ matrix.part }}.txt  # Run with correct file
+
+      - name: Upload JSON artifact
         uses: actions/upload-artifact@v4
         with:
-          name: results-links1
-          path: books.json
+          name: results-${{ matrix.part }}
+          path: ${{ matrix.part }}-books.json
 
-  scrape_part2:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        
-      - name: Set up Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: 3.1
-
-      - name: Install dependencies
-        run: bundle install
-        
-      - name: Run scraper for second batch
-        run: ruby scraper_books.rb links1.txt
-        
-      - name: Upload results
+      - name: Upload CSV artifact
         uses: actions/upload-artifact@v4
         with:
-          name: results-links2
-          path: books1.json
-
-  scrape_part3:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        
-      - name: Set up Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: 3.1
-
-      - name: Install dependencies
-        run: bundle install
-        
-      - name: Run scraper for third batch
-        run: ruby scrape_books.rb links2.txt
-        
-      - name: Upload results
-        uses: actions/upload-artifact@v4
-        with:
-          name: results-links3
-          path: books2.json
+          name: csv-${{ matrix.part }}
+          path: ${{ matrix.part }}-books.csv
