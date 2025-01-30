@@ -1,18 +1,8 @@
-https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=09&l3subcat=07&search=books&Page=1 القرآن وعلومه|عام
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=16&subcat=01&l2subcat=06 المجتمع الإسلامي
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=16&subcat=01&l2subcat=13 المساجد والمقدسات
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=16&subcat=01&l2subcat=07 النظام السياسي الإسلامي
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=16&subcat=01&l2subcat=16 تراث
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=16&subcat=01&l2subcat=14 تراجم وسير
-https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=14&l3subcat=01&search=books&Page=1 تراجم وسير|صحابة
-https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=14&l3subcat=02&search=books&Page=1 تراجم وسير|صحابيات
-https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=14&l3subcat=03&search=books&Page=1 تراجم وسير|تابعين
-https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=14&l3subcat=04&search=books&Page=1 تراجم وسير|رجال حديث
-https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=14&l3subcat=05&search=books&Page=1 تراجم وسير|رجال دعوة
-https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=14&l3subcat=06&search=books&Page=1 تراجم وسير|فقهاء
-https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=14&l3subcat=07&search=books&Page=1 تراجم وسير|خلفاء
-https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=14&l3subcat=08&search=books&Page=1 تراجم وسير|عام
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=16&subcat=01&l2subcat=21 تربويات
-https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=21&l3subcat=01&search=books&Page=1 تربويات|ثقافة إسلامية
-https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=21&l3subcat=02&search=books&Page=1 تربويات|الأخلاق والآداب
-https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=21&l3subcat=03&search=books&Page=1 تربويات|عام
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=16&subcat=01&l2subcat=27 الدعوة والدعاة
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=16&subcat=01&l2subcat=02 السيرة النبوية
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=16&subcat=01&l2subcat=12 العقيدة وعلومها
+https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=12&l3subcat=01&search=books العقيدة وعلومها|الإلهيات
+https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=12&l3subcat=02&search=books العقيدة وعلومها|النبوات
+https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=12&l3subcat=03&search=books العقيدة وعلومها|الإيمان
+https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=12&l3subcat=04&search=books العقيدة وعلومها|عام
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=16&subcat=01&l2subcat=04 الفرق
