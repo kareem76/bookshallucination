@@ -1,2 +1,6 @@
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=10&subcat=12&search=books مسرحيات
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=10&subcat=19&search=books مقالات أدبية
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=21&subcat=11&search=books التفاعل الإجتماعي
+https://www.neelwafurat.com/browsel1.aspx?cat=21&subcat=08&search=books الخدمات الإجتماعية
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=21&subcat=08&l2subcat=01 الخدمات الإجتماعية|التأمين
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=21&subcat=08&l2subcat=03 الخدمات الإجتماعية|النوادي العامة
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=21&subcat=08&l2subcat=05 الخدمات الإجتماعية|عام
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=21&subcat=08&l2subcat=04 الخدمات الإجتماعية|علم الجريمة
