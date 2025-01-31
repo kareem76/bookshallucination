@@ -1,1 +1,6 @@
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=08&subcat=01&search=books دراسات تاريخية
+https://www.neelwafurat.com/browsel1.aspx?cat=08&subcat=12&search=books دراسات جغرافية
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=08&subcat=12&l2subcat=02 دراسات جغرافية|الجغرافيا الإقتصادية
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=08&subcat=12&l2subcat=01 دراسات جغرافية|الجغرافيا التاريخية
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=08&subcat=12&l2subcat=04 دراسات جغرافية|جغرافية بشرية
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=08&subcat=12&l2subcat=03 دراسات جغرافية|عام
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=08&subcat=16&search=books عام
