@@ -1,12 +1,2 @@
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=16&subcat=01&l2subcat=20 أدب إسلامي
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=16&subcat=01&l2subcat=26 أدعية وأذكار
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=16&subcat=01&l2subcat=19 إقتصاد إسلامي
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=16&subcat=01&l2subcat=23 استشراق
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=16&subcat=01&l2subcat=08 التاريخ الإسلامي
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=16&subcat=01&l2subcat=01 الحديث وعلومه
-https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=01&l3subcat=01&search=books الحديث وعلومه|علم مصطلح الحديث
-https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=01&l3subcat=02&search=books الحديث وعلومه|علم الإسناد والرواية
-https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=01&l3subcat=03&search=books الحديث وعلومه|كتب الصحاح والسنن
-https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=01&l3subcat=04&search=books الحديث وعلومه|رجال الحديث
-https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=01&l3subcat=05&search=books الحديث وعلومه|العلل
-https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=01&l3subcat=06&search=books الحديث وعلومه|عام
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=10&subcat=13&search=books أدب إسلامي
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=10&subcat=15&search=books أدب رحلات
