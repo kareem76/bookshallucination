@@ -1,8 +1,2 @@
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=16&subcat=01&l2subcat=27 الدعوة والدعاة
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=16&subcat=01&l2subcat=02 السيرة النبوية
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=16&subcat=01&l2subcat=12 العقيدة وعلومها
-https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=12&l3subcat=01&search=books العقيدة وعلومها|الإلهيات
-https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=12&l3subcat=02&search=books العقيدة وعلومها|النبوات
-https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=12&l3subcat=03&search=books العقيدة وعلومها|الإيمان
-https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=12&l3subcat=04&search=books العقيدة وعلومها|عام
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=16&subcat=01&l2subcat=04 الفرق
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=10&subcat=13&search=books أدب إسلامي
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=10&subcat=15&search=books أدب رحلات
