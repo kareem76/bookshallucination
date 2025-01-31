@@ -40,48 +40,24 @@ class BookScraper
     price_text.split(' ').first.to_f rescue nil
   end
 
-  def scrape_books(genre_url, genre, start_page, end_page)
-  puts "Scraping books for genre: #{genre} (Pages #{start_page} to #{end_page})"
+  def scrape_books(genre_url, genre)
+    puts "Scraping books for genre: #{genre}"
+    session = Capybara::Session.new(:selenium_headless)  # New session per thread
+    session.visit(genre_url)
 
-  (start_page..end_page).each do |page_number|
-    page_url = "#{genre_url}&Page=#{page_number}"
-    puts "Visiting: #{page_url}"
-    
-    visit(page_url)
-    sleep 3  # Allow the page to load
+    loop do
+      current_page_url = session.current_url
 
-    # Process books on the page
-    all('.gridview .imggrid a').each do |book_link|
-      book_url = book_link['href']
-      puts "Processing book: #{book_url} (Page #{page_number})"
+      session.all('.gridview .imggrid a').each do |book_link|
+        book_url = book_link['href']
+        puts "Processing book: #{book_url} (Page URL: #{current_page_url})"
 
-      # Fetch book details
-      begin
-        book_page = @mechanize.get(book_url)
-      rescue Mechanize::ResponseCodeError => e
-        puts "Error accessing book URL #{book_url}: #{e.message}"
-        next
-      end
-
-      title = book_page.at('div.p-title')&.text&.strip
-      author = book_page.at('div.p-author')&.text&.strip&.gsub(/^لـ /, '')
-      image_url = book_page.at('.p-cover img')&.[]('src')
-      year = book_page.at('.p-info b:contains("تاريخ النشر")')&.text&.split(':')&.last&.strip
-
-      # Save to CSV
-      @csv << [title, author, genre, book_url, image_url, year, page_url]
-
-      # Save to JSON
-      @json << { title: title, author: author, genre: genre, book_url: book_url, image: image_url, year: year, page_url: page_url }
-      File.open(@json_file, 'a') { |f| f.write(JSON.generate(@json.last) + "\n") }
-    end
-
-    # Stop if no books found (last page reached)
-    break if all('.gridview .imggrid a').empty?
-  end
-
-  puts "Finished scraping pages #{start_page} to #{end_page}."
-end
+        begin
+          book_page = @mechanize.get(book_url)
+        rescue StandardError => e
+          puts "Error accessing book URL #{book_url}: #{e.message}"
+          next
+        end
 
         title = book_page.at('div.p-title')&.text&.strip
         author = book_page.at('div.p-author')&.text&.strip&.gsub(/^لـ /, '')
