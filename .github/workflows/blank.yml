@@ -2,11 +2,7 @@ name: Scrape Books
 
 on:
   push:
-    branches:
-      - test  # Runs ONLY on the 'test' branch
-
-jobs:
-  scrape:
+   
     runs-on: ubuntu-latest
     strategy:
       max-parallel: 6
