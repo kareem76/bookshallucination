@@ -1,53 +1,25 @@
-name: Scrape Books
-
-on:
-  push:
-    branches:
-      - main
-
-jobs:
-  scrape:
-    runs-on: ubuntu-latest
+runs-on: ubuntu-latest
     strategy:
-      max-parallel: 6  # Limits parallel jobs to avoid hitting GitHub's free-tier limi
-        part: [links, links1, links2, links3, links4, links5, links6, links7, links8]
       matrix:
+        part: [links, links1, links2, links3, links4, links5, links6, links7, links8]  # Runs 3 parallel jobs
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0  # Ensure all files are fetched
-
-      - name: Debug file existence
-        run: |
-          ls -l
-          if [ ! -f "${{ matrix.part }}.txt" ]; then
-            echo "Error: File ${{ matrix.part }}.txt not found!"
-            exit 1
-          fi
 
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.0'  # Adjust if needed
+          ruby-version: '3.0'  # Adjust as needed
 
       - name: Install dependencies
         run: |
-          gem install bundler
-          bundle install || gem install capybara selenium-webdriver mechanize json parallel
-
+          gem install capybara selenium-webdriver mechanize json parallel
       - name: Run the scraper
         run: |
           ruby scrape_books.rb ${{ matrix.part }}.txt  # Run with correct file
-
       - name: Upload JSON artifact
         uses: actions/upload-artifact@v4
         with:
           name: results-${{ matrix.part }}
           path: ${{ matrix.part }}-books.json
-
-      - name: Upload CSV artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: csv-${{ matrix.part }}
-          path: ${{ matrix.part }}-books.csv
