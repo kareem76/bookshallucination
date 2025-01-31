@@ -1,3 +1,13 @@
+name: Scrape Books
+
+on:
+  push:
+    branches:
+      - main  # Trigger on push to the 'main' branch
+  pull_request:
+    branches:
+      - main  # Trigger on pull request to the 'main' branch
+
 jobs:
   scrape:
     runs-on: ubuntu-latest
