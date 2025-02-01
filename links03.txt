@@ -1,8 +1,2 @@
-https://www.neelwafurat.com/browsel1.aspx?cat=02&subcat=10&search=books دراسات فنية
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=02&subcat=10&l2subcat=02 دراسات فنية|دراسات حديثة
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=02&subcat=10&l2subcat=01 دراسات فنية|دراسات قديمة
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=02&subcat=13&search=books ديكور
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=02&subcat=06&search=books رسم
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=02&subcat=17&search=books زخارف
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=02&subcat=02&search=books سينما
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=02&subcat=22&search=books عام
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=21&subcat=02&l2subcat=07 التربية والتعليم|تعليم ذوي الحاجات الخاصة
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=21&subcat=02&l2subcat=03 التربية والتعليم|عام

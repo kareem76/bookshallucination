@@ -1,10 +1,2 @@
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=08&subcat=14&search=books آثار
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=08&subcat=09&search=books آسيا
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=08&subcat=15&search=books أطالس وخرائط
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=08&subcat=11&search=books أفريقيا
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=08&subcat=08&search=books أميركا
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=08&subcat=07&search=books أوروبا
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=08&subcat=10&search=books أوستراليا
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=08&subcat=03&search=books الخليج العربي
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=08&subcat=02&search=books العالم العربي والإسلامي
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=08&subcat=05&search=books المغرب العربي
+https://www.neelwafurat.com/browsel1.aspx?cat=21&subcat=02&search=books التربية والتعليم
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=21&subcat=02&l2subcat=04 التربية والتعليم|إدارة تعليمية
