@@ -30,7 +30,7 @@ class BookScraper
     FileUtils.touch(@csv_file) unless File.exist?(@csv_file)
     FileUtils.touch(@json_file) unless File.exist?(@json_file)
 
-    @csv = CSV.open(@csv_file, 'a', headers: ['Title', 'Author', 'Genre', 'Book URL', 'Image', 'Year', 'Publisher','summary' 'ISBN', 'Price (USD)', 'Page URL'])
+    @csv = CSV.open(@csv_file, 'a', headers: ['Title', 'Author', 'Genre', 'Book URL', 'Image', 'Year', 'Publisher', 'summary', 'ISBN', 'Price (USD)', 'Page URL'])
     @json = []
   end
 
@@ -72,7 +72,7 @@ class BookScraper
 
         @csv << [title, author, genre, book_url, image_url, year, publisher, isbn, summary, usd_price, current_page_url]
         @json << { title: title, author: author, genre: genre, book_url: book_url, image: image_url, year: year,
-                   publisher: publisher, summary:summary, isbn: isbn, price_in_usd: usd_price, page_url: current_page_url }
+                   publisher: publisher, summary: summary, isbn: isbn, price_in_usd: usd_price, page_url: current_page_url }
         File.open(@json_file, 'a') { |f| f.write(JSON.generate(@json.last) + "\n") }
       end
 
