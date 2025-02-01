@@ -65,7 +65,24 @@ class BookScraper
         year = book_page.at('.p-info b:contains("تاريخ النشر")')&.text&.split(':')&.last&.strip
         publisher = book_page.at('.p-info b:contains("الناشر")')&.next&.text&.strip
         isbn = book_page.at('.p-info b:contains("ردمك")')&.next&.text&.strip
-        summary = book_page.at('span.desc.nabza d')&.next&.text&.strip
+        # Extracting the summary from the <d> tag within the <span> with class 'desc nabza'
+   # Extracting the summary from the <d> tag within the <span> with class 'desc nabza'
+d_content = book_page.at('span.desc.nabza d')
+
+if d_content
+  # Remove all <span> tags from the <d> content
+  d_content.search('span').each(&:remove)
+
+  # Get the cleaned text from the <d> tag
+  summary = d_content.text.strip
+
+  # Check if the summary is empty
+  if summary.empty?
+    summary = "null"
+  end
+else
+  summary = "null"
+end
         local_price = extract_price(book_page)
         rate = 0.33
         usd_price = (local_price * rate).to_i if local_price
