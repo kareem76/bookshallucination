@@ -65,6 +65,22 @@ class BookScraper
         image_url = book_page.at('.p-cover img')&.[]('src')
         year = book_page.at('.p-info b:contains("تاريخ النشر")')&.text&.split(':')&.last&.strip
         publisher = book_page.at('.p-info b:contains("الناشر")')&.next&.text&.strip
+        d_content = book_page.at('span.desc.nabza d')
+
+if d_content
+  # Remove all <span> tags from the <d> content
+  d_content.search('span').each(&:remove)
+
+  # Get the cleaned text from the <d> tag
+  summary = d_content.text.strip
+
+  # Check if the summary is empty
+  if summary.empty?
+    summary = "null"
+  end
+else
+  summary = "null"
+end
         isbn = book_page.at('.p-info b:contains("ردمك")')&.next&.text&.strip
         local_price = extract_price(book_page)
         rate = 0.33
@@ -72,7 +88,7 @@ class BookScraper
 
         @csv << [title, author, genre, book_url, image_url, year, publisher, isbn, usd_price, current_page_url]
         @json << { title: title, author: author, genre: genre, book_url: book_url, image: image_url, year: year,
-                   publisher: publisher, isbn: isbn, price_in_usd: usd_price, page_url: current_page_url }
+                   publisher: publisher, isbn: isbn, summary: summary, price_in_usd: usd_price, page_url: current_page_url }
         File.open(@json_file, 'a') { |f| f.write(JSON.generate(@json.last) + "\n") }
       end
 
