@@ -1,42 +1,20 @@
+
 name: Scrape Books
 
 on:
   push:
     branches:
-      - test  # Runs ONLY on the 'test' branch
+      - main  # Trigger on push to the 'main' branch
+  pull_request:
+    branches:
+      - main  # Trigger on pull request to the 'main' branch
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
     strategy:
-      max-parallel: 6
       matrix:
-        range: 
-          - { start: 1, end: 100 }
-          - { start: 101, end: 200 }
-          - { start: 201, end: 300 }
-          - { start: 301, end: 400 }
-          - { start: 401, end: 500 }
-          - { start: 501, end: 600 }
-          - { start: 601, end: 700 }
-          - { start: 701, end: 800 }
-          - { start: 801, end: 900 }
-          - { start: 901, end: 1000 }
-          - { start: 1001, end: 1100 }
-          - { start: 1101, end: 1200 }
-          - { start: 1201, end: 1300 }
-          - { start: 1301, end: 1400 }
-          - { start: 1401, end: 1500 }
-          - { start: 1501, end: 1600 }
-          - { start: 1601, end: 1700 }
-          - { start: 1701, end: 1800 }
-          - { start: 1801, end: 1900 }
-          - { start: 1901, end: 2000 }
-          - { start: 2001, end: 2100 }
-          - { start: 2101, end: 2200 }
-          - { start: 2201, end: 2300 }
-          - { start: 2301, end: 2400 }
-          - { start: 2401, end: 2545 }
+        part: [links, links01, links02, links03, links04, links05, links06, links07, links08, links09, links10, links11, links12, links13,  links14, links15, links16, links17, links18]  # Runs 9 parallel jobs
 
     steps:
       - name: Checkout code
@@ -45,7 +23,7 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.0'
+          ruby-version: '3.0'  # Adjust as needed
 
       - name: Install dependencies
         run: |
@@ -53,16 +31,10 @@ jobs:
 
       - name: Run the scraper
         run: |
-          ruby scrape_books.rb "https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=10&orderby=rdate&dir=desc&subcat=01" "Islamic Books" ${{ matrix.range.start }} ${{ matrix.range.end }}
+          ruby scrape_books.rb ${{ matrix.part }}.txt  # Run with correct file
 
       - name: Upload JSON artifact
         uses: actions/upload-artifact@v4
         with:
-          name: results-${{ matrix.range.start }}-${{ matrix.range.end }}
-          path: islam3.json
-
-      - name: Upload CSV artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: csv-${{ matrix.range.start }}-${{ matrix.range.end }}
-          path: islam3.csv
+          name: results-${{ matrix.part }}
+          path: ${{ matrix.part }}-books.json
