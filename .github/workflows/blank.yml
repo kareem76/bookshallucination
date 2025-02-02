@@ -1,7 +1,12 @@
-name: Scrape Books
+name: Scraping Books
 
 on:
-  workflow_dispatch:  # Manual trigger
+  push:
+    branches:
+      - eachloop  # Trigger on push to the 'main' branch
+  pull_request:
+    branches:
+      - eachloop  # Trigger on pull request to the 'main' branch
 
 jobs:
   scrape:
