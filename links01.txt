@@ -1,5 +1,3 @@
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=16&subcat=01&l2subcat=20 أدب إسلامي
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=16&subcat=01&l2subcat=26 أدعية وأذكار
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=16&subcat=01&l2subcat=19 إقتصاد إسلامي
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=16&subcat=01&l2subcat=23 استشراق
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=16&subcat=01&l2subcat=08 التاريخ الإسلامي
+https://www.neelwafurat.com/browsel1.aspx?cat=02&subcat=10&search=books دراسات فنية
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=02&subcat=10&l2subcat=02 دراسات فنية|دراسات حديثة
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=02&subcat=10&l2subcat=01 دراسات فنية|دراسات قديمة

@@ -1,6 +1,3 @@
-https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=01&l3subcat=01&search=books الحديث وعلومه|علم مصطلح الحديث
-https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=01&l3subcat=02&search=books الحديث وعلومه|علم الإسناد والرواية
-https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=01&l3subcat=03&search=books الحديث وعلومه|كتب الصحاح والسنن
-https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=01&l3subcat=04&search=books الحديث وعلومه|رجال الحديث
-https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=01&l3subcat=05&search=books الحديث وعلومه|العلل
-https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=01&l3subcat=06&search=books الحديث وعلومه|عام
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=02&subcat=17&search=books زخارف
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=02&subcat=02&search=books سينما
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=02&subcat=22&search=books عام
