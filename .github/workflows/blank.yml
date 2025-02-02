@@ -3,10 +3,10 @@ name: Scraping Books
 on:
   push:
     branches:
-      - eachloop  # Trigger on push to the 'main' branch
+      - eachloop  # Trigger on push to the 'eachloop' branch
   pull_request:
     branches:
-      - eachloop  # Trigger on pull request to the 'main' branch
+      - eachloop  # Trigger on pull request to the 'eachloop' branch
 
 jobs:
   scrape:
@@ -18,13 +18,11 @@ jobs:
           - { start: 101, end: 200 }
           - { start: 201, end: 300 }
           - { start: 301, end: 400 }
-          - { start: 401, end: 400 }
           - { start: 401, end: 500 }
           - { start: 501, end: 600 }
           - { start: 601, end: 700 }
           - { start: 701, end: 800 }
           - { start: 801, end: 900 }
-          - { start: 901, end: 900 }
           - { start: 901, end: 1000 }
           - { start: 1001, end: 1100 }
           - { start: 1101, end: 1200 }
@@ -47,7 +45,7 @@ jobs:
       - name: Install dependencies
         run: bundle install
 
-       name: Run scraper and create JSON artifact
+      - name: Run scraper and create JSON artifact
         run: |
           ruby scraping.rb ${{ matrix.batch.start }} ${{ matrix.batch.end }} > ${{ matrix.batch.start }}-${{ matrix.batch.end }}.json
 
