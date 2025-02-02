@@ -1,32 +1,5 @@
-https://www.neelwafurat.com/browsel1.aspx?cat=05&subcat=09&search=books جسم وصحة
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=05&subcat=09&l2subcat=04 جسم وصحة|أسنان
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=05&subcat=09&l2subcat=03 جسم وصحة|صحة نفسية
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=05&subcat=09&l2subcat=01 جسم وصحة|غذاء
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=05&subcat=09&l2subcat=05 جسم وصحة|مرض وزيارة طبيب
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=05&subcat=09&l2subcat=02 جسم وصحة|نظافة شخصية
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=05&subcat=11&search=books حرب ولجوء
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=05&subcat=14&search=books حكايات شعبية وتراثية
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=05&subcat=24&search=books حيوانات
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=05&subcat=19&search=books خيال وابتكار
-https://www.neelwafurat.com/browsel1.aspx?cat=05&subcat=07&search=books دين
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=05&subcat=07&l2subcat=05 دين|الأعياد
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=05&subcat=07&l2subcat=02 دين|السيرة النبوية
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=05&subcat=07&l2subcat=03 دين|حج وعمرة
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=05&subcat=07&l2subcat=04 دين|رمضان
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=05&subcat=07&l2subcat=06 دين|عام
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=05&subcat=07&l2subcat=01 دين|قصص الأنبياء
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=05&subcat=05&search=books رسم وتلوين
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=05&subcat=16&search=books صداقة
-https://www.neelwafurat.com/browsel1.aspx?cat=05&subcat=30&search=books صعوبات تعلمية
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=05&subcat=30&l2subcat=02 صعوبات تعلمية|فرط الحركة
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=05&subcat=30&l2subcat=01 صعوبات تعلمية|لغة وكلام
-https://www.neelwafurat.com/browsel1.aspx?cat=05&subcat=27&search=books عائلة
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=05&subcat=27&l2subcat=02 عائلة|الأخوة
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=05&subcat=27&l2subcat=04 عائلة|الجدان
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=05&subcat=27&l2subcat=03 عائلة|الوالدان
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=05&subcat=27&l2subcat=06 عائلة|بيت وعائلة
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=05&subcat=27&l2subcat=05 عائلة|تبني
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=05&subcat=27&l2subcat=07 عائلة|مشاكل الأسرة
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=05&subcat=27&l2subcat=01 عائلة|مولود جديد
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=05&subcat=32&search=books علوم
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=05&subcat=31&search=books قصص مصورة "كوميكس"
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=26&subcat=10&search=books القضاء
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=26&subcat=16&search=books عام
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=26&subcat=09&search=books علم القانون
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=26&subcat=07&search=books قانون إداري
+https://www.neelwafurat.com/browsel1.aspx?cat=26&subcat=04&search=books قانون الأحوال الشخصية

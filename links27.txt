@@ -1,1 +1,5 @@
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=05&subcat=01&l2subcat=01 قصص وروايات|تربوية وتعليمية
+https://www.neelwafurat.com/browsel1.aspx?cat=23&subcat=02&search=books عادات
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=23&subcat=02&l2subcat=01 عادات|إسلامية
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=23&subcat=02&l2subcat=04 عادات|عادات عامة
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=23&subcat=02&l2subcat=02 عادات|عربية
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=23&subcat=02&l2subcat=03 عادات|غربية

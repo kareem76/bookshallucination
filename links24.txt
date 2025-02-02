@@ -1,21 +1,4 @@
-https://www.neelwafurat.com/browsel1.aspx?cat=05&subcat=12&search=books احتياجات خاصة
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=05&subcat=12&l2subcat=03 احتياجات خاصة|توحد
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=05&subcat=12&l2subcat=05 احتياجات خاصة|صعوبات نطق
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=05&subcat=12&l2subcat=02 احتياجات خاصة|صم وبكم
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=05&subcat=12&l2subcat=06 احتياجات خاصة|عام
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=05&subcat=12&l2subcat=01 احتياجات خاصة|فقدان البصر
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=05&subcat=12&l2subcat=04 احتياجات خاصة|متلازمة داون
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=05&subcat=25&search=books الموت
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=05&subcat=18&search=books النوم
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=05&subcat=08&search=books بيئة
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=05&subcat=03&search=books بيوغرافيا
-https://www.neelwafurat.com/browsel1.aspx?cat=05&subcat=23&search=books تقبل الذات والآخر
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=05&subcat=23&l2subcat=02 تقبل الذات والآخر|ارتداء نظارة
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=05&subcat=23&l2subcat=01 تقبل الذات والآخر|عام
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=05&subcat=20&search=books تكنولوجيا
-https://www.neelwafurat.com/browsel1.aspx?cat=05&subcat=21&search=books توعية
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=05&subcat=21&l2subcat=01 توعية|جنسية
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=05&subcat=21&l2subcat=03 توعية|سلامة عامة
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=05&subcat=21&l2subcat=02 توعية|صحية
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=05&subcat=15&search=books ثقافات الشعوب
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=05&subcat=26&search=books ثقافة مالية
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=24&subcat=05&search=books دراسات عسكرية
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=24&subcat=08&search=books صناعات عسكرية
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=24&subcat=11&search=books عام
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=24&subcat=02&search=books منشآت
