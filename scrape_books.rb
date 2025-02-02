@@ -62,7 +62,7 @@ class BookScraper
         title = book_page.at('div.p-title')&.text&.strip
         author = book_page.at('div.p-author')&.text&.strip&.gsub(/^لـ /, '')
         image_url = book_page.at('.p-cover img')&.[]('src')
-        year = book_page.at('.p-info b:contains("تاريخ النشر")')&.text&.split(':')&.last&.strip
+        year = year = book_page.at('.p-info b:contains("تاريخ النشر")')&.next&.text&.strip
         publisher = book_page.at('.p-info b:contains("الناشر")')&.next&.text&.strip
         isbn = book_page.at('.p-info b:contains("ردمك")')&.next&.text&.strip
         # Extracting the summary from the <d> tag within the <span> with class 'desc nabza'
