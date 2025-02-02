@@ -1,3 +1,7 @@
-https://www.neelwafurat.com/browsel1.aspx?cat=03&subcat=03&search=books أدباء
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=03&subcat=03&l2subcat=02 أدباء|شعراء
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=03&subcat=03&l2subcat=01 أدباء|كتاب
+https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=09&l3subcat=01&search=books القرآن وعلومه|تفسير القرآن
+https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=09&l3subcat=02&search=books القرآن وعلومه|التجويد والقراءات
+https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=09&l3subcat=03&search=books القرآن وعلومه|إعجاز القرآن
+https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=09&l3subcat=04&search=books القرآن وعلومه|دراسات قرآنية
+https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=09&l3subcat=05&search=books القرآن وعلومه|خواص وأسرار وفضائل
+https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=09&l3subcat=06&search=books القرآن وعلومه|قصص القرآن
+https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=09&l3subcat=07&search=books القرآن وعلومه|عام

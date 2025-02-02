@@ -1,2 +1,4 @@
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=03&subcat=14&search=books أعلام
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=03&subcat=13&search=books إقتصاديون
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=16&subcat=01&l2subcat=06 المجتمع الإسلامي
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=16&subcat=01&l2subcat=13 المساجد والمقدسات
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=16&subcat=01&l2subcat=07 النظام السياسي الإسلامي
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=16&subcat=01&l2subcat=16 تراث

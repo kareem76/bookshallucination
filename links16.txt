@@ -1,11 +1,1 @@
-https://www.neelwafurat.com/browsel1.aspx?cat=04&subcat=01&search=books إقتصاد
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=04&subcat=01&l2subcat=02 إقتصاد|إقتصاد إسلامي
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=04&subcat=01&l2subcat=08 إقتصاد|إقتصاد دولي
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=04&subcat=01&l2subcat=03 إقتصاد|إقتصاد صناعي
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=04&subcat=01&l2subcat=07 إقتصاد|إقتصاد عربي
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=04&subcat=01&l2subcat=05 إقتصاد|إقتصاد مالي
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=04&subcat=01&l2subcat=06 إقتصاد|أنظمة إقصادية
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=04&subcat=01&l2subcat=01 إقتصاد|تنمية إقتصادية
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=04&subcat=01&l2subcat=04 إقتصاد|دراسات إقتصادية
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=04&subcat=01&l2subcat=09 إقتصاد|دراسة جدوى
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=04&subcat=01&l2subcat=10 إقتصاد|عام
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=16&subcat=01&l2subcat=28 عام
