@@ -50,7 +50,7 @@ jobs:
           ruby scraping.rb ${{ matrix.batch.start }} ${{ matrix.batch.end }} > ${{ matrix.batch.start }}-${{ matrix.batch.end }}.json
 
       - name: Upload JSON artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v2
         with:
           name: batch-${{ matrix.batch.start }}-${{ matrix.batch.end }}
           path: ${{ matrix.batch.start }}-${{ matrix.batch.end }}.json
