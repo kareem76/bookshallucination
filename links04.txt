@@ -1,4 +1,4 @@
-https://www.neelwafurat.com/browsel1.aspx?cat=02&subcat=18&search=books عمارة
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=02&subcat=18&l2subcat=02 عمارة|العمارة الإسلامية
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=02&subcat=18&l2subcat=01 عمارة|العمارة القديمة
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=02&subcat=18&l2subcat=03 عمارة|عام
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=10&subcat=20&l2subcat=03 الخطب|إسلامية
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=10&subcat=20&l2subcat=01 الخطب|المناظرات
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=10&subcat=20&l2subcat=04 الخطب|عام
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=10&subcat=20&l2subcat=02 الخطب|مقالات
