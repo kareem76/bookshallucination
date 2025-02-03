@@ -3,37 +3,54 @@ name: Scrape Books
 on:
   push:
     branches:
-      - main  # Trigger on push to the 'main' branch
+      - main  # Trigger on push to the 'main' branchname: Scraping Books
+
+on:
+  push:
+    branches:
+      - poesy  # Trigger on push to the 'eachloop' branch
   pull_request:
     branches:
-      - main  # Trigger on pull request to the 'main' branch
+      - poesy  # Trigger on pull request to the 'eachloop' branch
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        part: [links, links01, links02, links03, links04, links05, links06, links07, links08, links09, links10, links11, links12, links13, links14, links15]  # Runs 9 parallel jobs
+        batch: 
+          - { start: 0, end: 50 }
+          - { start: 51, end: 100 }
+          - { start: 101, end: 150 }
+          - { start: 151, end: 200 }
+          - { start: 201, end: 250 }
+          - { start: 251, end: 300 }
+          - { start: 301, end: 350 }
+          - { start: 351, end: 400 }
+          - { start: 401, end: 450 }
+          - { start: 451, end: 500 }
+          - { start: 501, end: 550 }
+          - { start: 551, end: 608 }
 
     steps:
-      - name: Checkout code
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.0'  # Adjust as needed
+          ruby-version: 3.2
 
       - name: Install dependencies
-        run: |
-          gem install capybara selenium-webdriver mechanize json parallel
+        run: bundle install
 
-      - name: Run the scraper
+      - name: Run scraper and create JSON artifact
         run: |
-          ruby scrape_books.rb ${{ matrix.part }}.txt  # Run with correct file
+          ruby scraping.rb ${{ matrix.batch.start }} ${{ matrix.batch.end }} > ${{ matrix.batch.start }}-${{ matrix.batch.end }}.json
 
       - name: Upload JSON artifact
         uses: actions/upload-artifact@v4
         with:
-          name: results-${{ matrix.part }}
-          path: ${{ matrix.part }}-books.json
+          name: batch-${{ matrix.batch.start }}-${{ matrix.batch.end }}
+          path: ${{ matrix.batch.start }}-${{ matrix.batch.end }}.json
+  
