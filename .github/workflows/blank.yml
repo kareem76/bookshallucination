@@ -42,7 +42,7 @@ jobs:
 
       - name: Run scraper and create JSON artifact
         run: |
-          ruby scraping.rb ${{ matrix.batch.start }} ${{ matrix.batch.end }} > ${{ matrix.batch.start }}-${{ matrix.batch.end }}.json
+          ruby poesy.rb ${{ matrix.batch.start }} ${{ matrix.batch.end }} > ${{ matrix.batch.start }}-${{ matrix.batch.end }}.json
 
       - name: Upload JSON artifact
         uses: actions/upload-artifact@v4
