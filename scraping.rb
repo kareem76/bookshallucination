@@ -103,12 +103,12 @@ end
       end
     end
 
-    #puts JSON.pretty_generate(@results)
+    puts JSON.pretty_generate(@results)
     write_results  
   end
 
   def write_results
-    puts "💾 Writing results to files..."
+    #puts "💾 Writing results to files..."
     @results.each { |row| @csv << row.values }
     File.open(@json_file, 'a') do |f|
       @results.each { |result| f.write(JSON.generate(result) + "\n") }
