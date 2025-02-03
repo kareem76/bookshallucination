@@ -45,23 +45,23 @@ class BookScraper
   end
 
   def scrape_books(genre_url, genre, start_page, end_page)
-    puts "🔵 Scraping books for genre: #{genre}, Pages: #{start_page} - #{end_page}"
+    #puts "🔵 Scraping books for genre: #{genre}, Pages: #{start_page} - #{end_page}"
 
     (start_page..end_page).each do |page_number|
       page_url = "#{genre_url}&Page=#{page_number}"
-      puts "🟡 Visiting page: #{page_url}"
+      #puts "🟡 Visiting page: #{page_url}"
 
       # ✅ VISIT PAGE ONCE ONLY
       @session.visit(page_url)
       sleep 2  # Prevents excessive requests
 
       book_links = @session.all('.gridview .imggrid a').map { |link| link['href'] }.uniq  # ✅ Ensure unique links
-      puts "🔹 Found #{book_links.size} book links on page #{page_number}"
+      #puts "🔹 Found #{book_links.size} book links on page #{page_number}"
 
       book_links.each do |book_url|
         next if @unique_book_urls.include?(book_url)  # ✅ Skip duplicates
 
-        puts "🟢 Processing book: #{book_url} (Page URL: #{page_url})"
+        #puts "🟢 Processing book: #{book_url} (Page URL: #{page_url})"
 
         begin
           book_page = @mechanize.get(book_url)
@@ -97,13 +97,13 @@ end
                         year: year, publisher: publisher, isbn: isbn, price_in_usd: usd_price, summary: summary, page_url: page_url }
 
         rescue StandardError => e
-          puts "❌ Error accessing book URL #{book_url}: #{e.message}"
+          #puts "❌ Error accessing book URL #{book_url}: #{e.message}"
           next
         end
       end
     end
 
-    puts JSON.pretty_generate(@results)
+    #puts JSON.pretty_generate(@results)
     write_results  
   end
 
