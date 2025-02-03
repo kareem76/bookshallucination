@@ -5,6 +5,7 @@ require 'mechanize'
 require 'csv'
 require 'json'
 require 'fileutils'
+require 'set'
 
 # Capybara Configuration
 Capybara.default_driver = :selenium_headless
@@ -24,13 +25,17 @@ class BookScraper
     @mechanize = Mechanize.new
     @csv_file = "#{output_prefix}-books.csv"
     @json_file = "#{output_prefix}-books.json"
-    @results = []  # Store scraped data before writing
+    @results = []  
+    @unique_book_urls = Set.new  
 
     # Ensure output files exist
     FileUtils.touch(@csv_file) unless File.exist?(@csv_file)
     FileUtils.touch(@json_file) unless File.exist?(@json_file)
 
     @csv = CSV.open(@csv_file, 'a', write_headers: true, headers: ['Title', 'Author', 'Genre', 'Book URL', 'Image', 'Year', 'Publisher', 'ISBN', 'Price (USD)', 'Summary', 'Page URL'])
+
+    # **Initialize Capybara session once**
+    @session = Capybara::Session.new(:selenium_headless)
   end
 
   def extract_price(book_page)
@@ -39,24 +44,24 @@ class BookScraper
     price_text.split(' ').first.to_f rescue nil
   end
 
-  def extract_summary(book_page)
-    summary_element = book_page.at('span.desc.nabza d')
-    summary_element ? summary_element.text.strip : nil
-  end
-
   def scrape_books(genre_url, genre, start_page, end_page)
-    puts "Scraping books for genre: #{genre}, Pages: #{start_page} - #{end_page}"
+    puts "🔵 Scraping books for genre: #{genre}, Pages: #{start_page} - #{end_page}"
 
-   (start_page..end_page).each do |page_number|
+    (start_page..end_page).each do |page_number|
       page_url = "#{genre_url}&Page=#{page_number}"
-      puts "Visiting page: #{page_url}"
+      puts "🟡 Visiting page: #{page_url}"
 
-      session = Capybara::Session.new(:selenium_headless)
-      session.visit(page_url)
+      # ✅ VISIT PAGE ONCE ONLY
+      @session.visit(page_url)
+      sleep 2  # Prevents excessive requests
 
-      session.all('.gridview .imggrid a').each do |book_link|
-        book_url = book_link['href']
-        puts "Processing book: #{book_url} (Page URL: #{page_url})"
+      book_links = @session.all('.gridview .imggrid a').map { |link| link['href'] }.uniq  # ✅ Ensure unique links
+      puts "🔹 Found #{book_links.size} book links on page #{page_number}"
+
+      book_links.each do |book_url|
+        next if @unique_book_urls.include?(book_url)  # ✅ Skip duplicates
+
+        puts "🟢 Processing book: #{book_url} (Page URL: #{page_url})"
 
         begin
           book_page = @mechanize.get(book_url)
@@ -66,7 +71,12 @@ class BookScraper
           year = book_page.at('.p-info b:contains("تاريخ النشر")')&.next&.text&.strip
           publisher = book_page.at('.p-info b:contains("الناشر")')&.next&.text&.strip
           isbn = book_page.at('.p-info b:contains("ردمك")')&.next&.text&.strip
-          d_content = book_page.at('span.desc.nabza d')
+          local_price = extract_price(book_page)
+          rate = 0.33
+          usd_price = (local_price * rate).to_i if local_price
+
+          # **Extract Summary**
+         d_content = book_page.at('span.desc.nabza d')
 
 if d_content
   # Remove all <span> tags from the <d> content
@@ -82,27 +92,23 @@ if d_content
 else
   summary = "null"
 end
-          local_price = extract_price(book_page)
-          rate = 0.33
-          usd_price = (local_price * rate).to_i if local_price
-          summary = extract_summary(book_page)
-
-          @results << { title: title, author: author, genre: genre, book_url: book_url, image: image_url, 
+          @unique_book_urls.add(book_url)  # ✅ Add to unique list
+          @results << { title: title, author: author, genre: genre, book_url: book_url, image: image_url,
                         year: year, publisher: publisher, isbn: isbn, price_in_usd: usd_price, summary: summary, page_url: page_url }
+
         rescue StandardError => e
-          puts "Error accessing book URL #{book_url}: #{e.message}"
+          puts "❌ Error accessing book URL #{book_url}: #{e.message}"
           next
         end
       end
-
-      sleep 2  # Reduced sleep time between page requests
     end
 
-    # Write results to files in batch
-    write_results
+    puts JSON.pretty_generate(@results)
+    write_results  
   end
 
   def write_results
+    puts "💾 Writing results to files..."
     @results.each { |row| @csv << row.values }
     File.open(@json_file, 'a') do |f|
       @results.each { |result| f.write(JSON.generate(result) + "\n") }
@@ -110,18 +116,11 @@ end
   end
 end
 
-# Define the base URL and genre
-base_url = "https://www.neelwafurat.com/browse1.aspx?ddmsubject=10&subcat=01&search=books"
-genre = "Books"
-
-# Create an instance of BookScraper and start scraping
-#scraper = BookScraper.new("output")
-#scraper.scrape_books(base_url, genre)
 # Parse arguments from GitHub Actions
 start_page = ARGV[0].to_i
 end_page = ARGV[1].to_i
 
+puts "🚀 Starting BookScraper from Page #{start_page} to #{end_page}"
 scraper = BookScraper.new("output")
-scraper.scrape_books("https://www.neelwafurat.com/browse1.aspx?ddmsubject=10&subcat=01&search=books", "Books", start_page, end_page)
-
-
+scraper.scrape_books("https://www.neelwafurat.com/browse1.aspx?ddmsubject=10&subcat=01&search=books", "روايات", start_page, end_page)
+puts "✅ Scraping completed!"
