@@ -1,8 +1,3 @@
-https://www.neelwafurat.com/browsel1.aspx?cat=14&subcat=07&search=books الجمال
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=14&subcat=07&l2subcat=02 الجمال|الرشاقة والحمية
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=14&subcat=07&l2subcat=01 الجمال|الماكياج
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=14&subcat=07&l2subcat=03 الجمال|عام
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=14&subcat=01&search=books الحمل
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=14&subcat=05&search=books العائلة
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=14&subcat=13&search=books تدبير منزلي
-https://www.neelwafurat.com/browsel1.aspx?cat=14&subcat=06&search=books جنس
+https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=21&l3subcat=01&search=books تربويات|ثقافة إسلامية
+https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=21&l3subcat=02&search=books تربويات|الأخلاق والآداب
+https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=21&l3subcat=03&search=books تربويات|عام

@@ -1,23 +1,5 @@
-https://www.neelwafurat.com/browsel1.aspx?cat=04&subcat=09&search=books تأمين
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=04&subcat=09&l2subcat=03 تأمين|تأمين الشركات
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=04&subcat=09&l2subcat=04 تأمين|تأمين العمال
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=04&subcat=09&l2subcat=01 تأمين|تأمين حكومي
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=04&subcat=09&l2subcat=02 تأمين|تأمين صحي
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=04&subcat=09&l2subcat=05 تأمين|عام
-https://www.neelwafurat.com/browsel1.aspx?cat=04&subcat=05&search=books تجارة
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=04&subcat=05&l2subcat=02 تجارة|إتفاقيات تجارية
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=04&subcat=05&l2subcat=03 تجارة|التجارة الدولية
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=04&subcat=05&l2subcat=01 تجارة|التجارة المحلية
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=04&subcat=05&l2subcat=05 تجارة|الجمارك
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=04&subcat=05&l2subcat=04 تجارة|السياسة التجارية
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=04&subcat=05&l2subcat=06 تجارة|عام
-https://www.neelwafurat.com/browsel1.aspx?cat=04&subcat=13&search=books تسويق
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=04&subcat=13&l2subcat=03 تسويق|سلوك المستهلك
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=04&subcat=13&l2subcat=04 تسويق|عام
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=04&subcat=13&l2subcat=02 تسويق|قنوات التوزيع
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=04&subcat=13&l2subcat=01 تسويق|مهارات الإتصال
-https://www.neelwafurat.com/browsel1.aspx?cat=04&subcat=14&search=books صناعة
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=04&subcat=14&l2subcat=02 صناعة|صناعات ثقيلة
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=04&subcat=14&l2subcat=01 صناعة|صناعات خفيفة
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=04&subcat=14&l2subcat=03 صناعة|عام
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=04&subcat=17&search=books عام
+https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=12&l3subcat=01&search=books العقيدة وعلومها|الإلهيات
+https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=12&l3subcat=02&search=books العقيدة وعلومها|النبوات
+https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=12&l3subcat=03&search=books العقيدة وعلومها|الإيمان
+https://www.neelwafurat.com/browsel3.aspx?ddmsubject=16&subcat=01&l2subcat=12&l3subcat=04&search=books العقيدة وعلومها|عام
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=16&subcat=01&l2subcat=04 الفرق
