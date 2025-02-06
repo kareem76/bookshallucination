@@ -22,10 +22,8 @@ jobs:
           - { start: 251, end: 300 }
           - { start: 301, end: 350 }
           - { start: 351, end: 400 }
-          - { start: 401, end: 450 }
-          - { start: 451, end: 500 }
-          - { start: 501, end: 550 }
-          - { start: 551, end: 610 }
+          - { start: 401, end: 417 }
+         
 
     steps:
       - name: Checkout repository
