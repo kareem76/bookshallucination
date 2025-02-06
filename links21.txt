@@ -1,3 +1,7 @@
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=22&subcat=03&search=books أدب الرحلات
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=22&subcat=02&search=books استكشافات
-https://www.neelwafurat.com/browsel1.aspx?cat=22&subcat=01&search=books سياحة
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=07&subcat=05&l2subcat=01 أمراض|أمراض جنسية
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=07&subcat=05&l2subcat=02 أمراض|أمراض وبائية
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=07&subcat=05&l2subcat=03 أمراض|الإدمان
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=07&subcat=05&l2subcat=04 أمراض|عام
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=07&subcat=09&search=books الصحة والسلامة العامة
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=07&subcat=07&search=books تربية جنسية
+https://www.neelwafurat.com/browsel1.aspx?cat=07&subcat=02&search=books تغذية

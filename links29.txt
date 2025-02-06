@@ -1,7 +1,10 @@
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=11&subcat=03&search=books أساطير
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=11&subcat=01&search=books أسرار
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=11&subcat=06&search=books الجن والماورائيات
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=11&subcat=04&search=books تنبؤات
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=11&subcat=05&search=books سحر
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=11&subcat=7&search=books عام
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=11&subcat=02&search=books غرائب
+https://www.neelwafurat.com/browsel1.aspx?cat=05&subcat=27&search=books عائلة
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=05&subcat=27&l2subcat=02 عائلة|الأخوة
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=05&subcat=27&l2subcat=04 عائلة|الجدان
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=05&subcat=27&l2subcat=03 عائلة|الوالدان
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=05&subcat=27&l2subcat=06 عائلة|بيت وعائلة
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=05&subcat=27&l2subcat=05 عائلة|تبني
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=05&subcat=27&l2subcat=07 عائلة|مشاكل الأسرة
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=05&subcat=27&l2subcat=01 عائلة|مولود جديد
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=05&subcat=32&search=books علوم
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=05&subcat=31&search=books قصص مصورة "كوميكس"

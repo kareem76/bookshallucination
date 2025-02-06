@@ -1,5 +1,19 @@
-https://www.neelwafurat.com/browsel1.aspx?cat=23&subcat=02&search=books عادات
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=23&subcat=02&l2subcat=01 عادات|إسلامية
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=23&subcat=02&l2subcat=04 عادات|عادات عامة
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=23&subcat=02&l2subcat=02 عادات|عربية
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=23&subcat=02&l2subcat=03 عادات|غربية
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=05&subcat=23&l2subcat=02 تقبل الذات والآخر|ارتداء نظارة
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=05&subcat=23&l2subcat=01 تقبل الذات والآخر|عام
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=05&subcat=20&search=books تكنولوجيا
+https://www.neelwafurat.com/browsel1.aspx?cat=05&subcat=21&search=books توعية
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=05&subcat=21&l2subcat=01 توعية|جنسية
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=05&subcat=21&l2subcat=03 توعية|سلامة عامة
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=05&subcat=21&l2subcat=02 توعية|صحية
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=05&subcat=15&search=books ثقافات الشعوب
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=05&subcat=26&search=books ثقافة مالية
+https://www.neelwafurat.com/browsel1.aspx?cat=05&subcat=09&search=books جسم وصحة
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=05&subcat=09&l2subcat=04 جسم وصحة|أسنان
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=05&subcat=09&l2subcat=03 جسم وصحة|صحة نفسية
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=05&subcat=09&l2subcat=01 جسم وصحة|غذاء
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=05&subcat=09&l2subcat=05 جسم وصحة|مرض وزيارة طبيب
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=05&subcat=09&l2subcat=02 جسم وصحة|نظافة شخصية
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=05&subcat=11&search=books حرب ولجوء
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=05&subcat=14&search=books حكايات شعبية وتراثية
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=05&subcat=24&search=books حيوانات
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=05&subcat=19&search=books خيال وابتكار

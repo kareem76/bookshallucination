@@ -1,7 +1,27 @@
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=24&subcat=06&search=books أسلحة
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=24&subcat=10&search=books الهندسة العسكرية
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=24&subcat=07&search=books تخطيط حربي
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=24&subcat=03&search=books تنظيمات
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=24&subcat=09&search=books تنمية عسكرية
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=24&subcat=01&search=books جيوش
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=24&subcat=04&search=books حروب
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=07&subcat=03&l2subcat=15 طبابة|أمراض جلدية
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=07&subcat=03&l2subcat=11 طبابة|أنف أذن حنجرة
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=07&subcat=03&l2subcat=08 طبابة|التشريح البشري
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=07&subcat=03&l2subcat=24 طبابة|التشوهات الخلقية
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=07&subcat=03&l2subcat=25 طبابة|التمريض
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=07&subcat=03&l2subcat=21 طبابة|الجراحة
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=07&subcat=03&l2subcat=09 طبابة|الطب التجريبي
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=07&subcat=03&l2subcat=18 طبابة|الطب الشرعي
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=07&subcat=03&l2subcat=19 طبابة|الطب الوقائي
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=07&subcat=03&l2subcat=26 طبابة|الطوارئ والإسعافات الأولية
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=07&subcat=03&l2subcat=07 طبابة|العلوم الطبية
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=07&subcat=03&l2subcat=27 طبابة|العناية بذوي الحاجات الخاصة
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=07&subcat=03&l2subcat=13 طبابة|القلب والأوعية الدموية
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=07&subcat=03&l2subcat=23 طبابة|دم
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=07&subcat=03&l2subcat=14 طبابة|دماغ وأعصاب
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=07&subcat=03&l2subcat=02 طبابة|طب إسلامي
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=07&subcat=03&l2subcat=20 طبابة|طب الأسنان
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=07&subcat=03&l2subcat=17 طبابة|طب الأطفال
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=07&subcat=03&l2subcat=22 طبابة|طب العظام
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=07&subcat=03&l2subcat=10 طبابة|طب العيون
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=07&subcat=03&l2subcat=05 طبابة|طب حديث
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=07&subcat=03&l2subcat=12 طبابة|طب داخلي
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=07&subcat=03&l2subcat=03 طبابة|طب صيني
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=07&subcat=03&l2subcat=06 طبابة|طب عام
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=07&subcat=03&l2subcat=01 طبابة|طب عربي
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=07&subcat=03&l2subcat=04 طبابة|طب هندي
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=07&subcat=03&l2subcat=30 طبابة|عام
