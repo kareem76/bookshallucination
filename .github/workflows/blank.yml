@@ -14,13 +14,18 @@ jobs:
     strategy:
       matrix:
         batch: 
-          - { start: 1901, end: 2000 }
-          - { start: 2001, end: 2100 }
-          - { start: 2101, end: 2200 }
-          - { start: 2201, end: 2300 }
-          - { start: 2301, end: 2400 }
-          - { start: 2401, end: 2500 }
-          - { start: 2501, end: 2545 }
+          - { start: 0, end: 50 }
+          - { start: 51, end: 100 }
+          - { start: 101, end: 150 }
+          - { start: 151, end: 200 }
+          - { start: 201, end: 250 }
+          - { start: 251, end: 300 }
+          - { start: 301, end: 350 }
+          - { start: 351, end: 400 }
+          - { start: 401, end: 450 }
+          - { start: 451, end: 500 }
+          - { start: 501, end: 550 }
+          - { start: 551, end: 610 }
 
     steps:
       - name: Checkout repository
