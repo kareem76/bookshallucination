@@ -1,1 +1,8 @@
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=10&subcat=19&search=books مقالات أدبية
+https://www.neelwafurat.com/browsel1.aspx?cat=14&subcat=11&search=books أزياء
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=14&subcat=11&l2subcat=01 أزياء|تصميم أزياء
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=14&subcat=11&l2subcat=02 أزياء|عام
+https://www.neelwafurat.com/browsel1.aspx?cat=14&subcat=02&search=books أطفال
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=14&subcat=02&l2subcat=02 أطفال|العناية بالطفل
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=14&subcat=02&l2subcat=01 أطفال|تربية وتعليم
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=14&subcat=02&l2subcat=03 أطفال|ذوي الإحتياجات الخاصة
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=14&subcat=02&l2subcat=04 أطفال|عام

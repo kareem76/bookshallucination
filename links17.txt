@@ -1,7 +1,10 @@
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=02&subcat=11&search=books الخط العربي
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=02&subcat=08&search=books تاريخ الفن
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=02&subcat=03&search=books تصوير
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=02&subcat=23&search=books تلفزيون
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=02&subcat=19&search=books تنسييق الأزهار
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=02&subcat=16&search=books حرف
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=02&subcat=12&search=books خزف
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=14&subcat=06&l2subcat=03 جنس|أمراض جنسية
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=14&subcat=06&l2subcat=02 جنس|العلاقات الزوجية
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=14&subcat=06&l2subcat=01 جنس|تربية جنسية
+https://www.neelwafurat.com/browsel1.aspx?cat=14&subcat=04&search=books شؤون المرأة
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=14&subcat=04&l2subcat=02 شؤون المرأة|الإجتماعية
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=14&subcat=04&l2subcat=03 شؤون المرأة|السياسية
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=14&subcat=04&l2subcat=04 شؤون المرأة|الشخصية
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=14&subcat=04&l2subcat=01 شؤون المرأة|الفكرية
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=14&subcat=04&l2subcat=05 شؤون المرأة|دينية
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=14&subcat=12&search=books عام

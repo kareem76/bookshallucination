@@ -1,2 +1,6 @@
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=10&subcat=05&search=books طرائف ونوادر
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=10&subcat=21&search=books عام
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=20&subcat=04&l2subcat=05 تاريخ الفلسفة|فلسفة إسلامية
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=20&subcat=04&l2subcat=02 تاريخ الفلسفة|فلسفة حديثة
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=20&subcat=04&l2subcat=03 تاريخ الفلسفة|فلسفة شرقية
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=20&subcat=04&l2subcat=04 تاريخ الفلسفة|فلسفة غربية
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=20&subcat=04&l2subcat=01 تاريخ الفلسفة|فلسفة قديمة
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=20&subcat=04&l2subcat=06 تاريخ الفلسفة|فلسفة معاصرة

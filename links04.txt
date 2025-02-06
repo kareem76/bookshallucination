@@ -1,4 +1,21 @@
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=10&subcat=20&l2subcat=03 الخطب|إسلامية
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=10&subcat=20&l2subcat=01 الخطب|المناظرات
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=10&subcat=20&l2subcat=04 الخطب|عام
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=10&subcat=20&l2subcat=02 الخطب|مقالات
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=04&subcat=01&l2subcat=02 إقتصاد|إقتصاد إسلامي
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=04&subcat=01&l2subcat=08 إقتصاد|إقتصاد دولي
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=04&subcat=01&l2subcat=03 إقتصاد|إقتصاد صناعي
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=04&subcat=01&l2subcat=07 إقتصاد|إقتصاد عربي
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=04&subcat=01&l2subcat=05 إقتصاد|إقتصاد مالي
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=04&subcat=01&l2subcat=06 إقتصاد|أنظمة إقصادية
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=04&subcat=01&l2subcat=01 إقتصاد|تنمية إقتصادية
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=04&subcat=01&l2subcat=04 إقتصاد|دراسات إقتصادية
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=04&subcat=01&l2subcat=09 إقتصاد|دراسة جدوى
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=04&subcat=01&l2subcat=10 إقتصاد|عام
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=04&subcat=04&search=books استثمار
+https://www.neelwafurat.com/browsel1.aspx?cat=04&subcat=06&search=books التنمية
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=04&subcat=06&l2subcat=01 التنمية|تخطيط تنموي
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=04&subcat=06&l2subcat=02 التنمية|عام
+https://www.neelwafurat.com/browsel1.aspx?cat=04&subcat=02&search=books العمل والعمال
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=04&subcat=02&l2subcat=02 العمل والعمال|أسواق العمل
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=04&subcat=02&l2subcat=01 العمل والعمال|القوى العاملة
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=04&subcat=02&l2subcat=04 العمل والعمال|النقابات العمالية
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=04&subcat=02&l2subcat=05 العمل والعمال|تدريب
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=04&subcat=02&l2subcat=03 العمل والعمال|حقوق العمال
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=04&subcat=02&l2subcat=06 العمل والعمال|عام

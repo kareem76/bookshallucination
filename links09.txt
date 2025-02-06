@@ -1,4 +1,5 @@
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=10&subcat=02&l2subcat=06 شعر|الأعمال الشعرية
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=10&subcat=02&l2subcat=04 شعر|البلاغة والعروض
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=10&subcat=02&l2subcat=02 شعر|حديث
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=10&subcat=02&l2subcat=05 شعر|شعر عامي
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=01&subcat=02&l2subcat=02 القواعد|الإملاء
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=01&subcat=02&l2subcat=03 القواعد|بلاغة
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=01&subcat=02&l2subcat=01 القواعد|صرف ونحو
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=01&subcat=04&search=books ترجمة
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=01&subcat=05&search=books دراسات لغوية
