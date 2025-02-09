@@ -37,4 +37,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: results-${{ matrix.part }}
-          path: ${{ matrix.part }}-kids.json
+          path: ${{ matrix.part }}-books.json
