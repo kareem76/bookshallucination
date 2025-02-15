@@ -120,7 +120,7 @@ end
 start_page = ARGV[0].to_i
 end_page = ARGV[1].to_i
 
-puts "🚀 Starting BookScraper from Page #{start_page} to #{end_page}"
+#puts "🚀 Starting BookScraper from Page #{start_page} to #{end_page}"
 scraper = BookScraper.new("output")
-scraper.scrape_books("https://www.neelwafurat.com/browsel1.aspx?cat=05&subcat=01&search=books", "قصص و روايات", start_page, end_page)
-puts "✅ Scraping completed!"
+scraper.scrape_books("https://www.neelwafurat.com/browsel1.aspx?search=books&cat=21&subcat=02", " التربية والتعليم", start_page, end_page)
+#puts "✅ Scraping completed!"
