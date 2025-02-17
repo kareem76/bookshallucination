@@ -1,3 +1,5 @@
-https://www.neelwafurat.com/browsel1.aspx?cat=14&subcat=11&search=books أزياء
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=14&subcat=11&l2subcat=01 أزياء|تصميم أزياء
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=14&subcat=11&l2subcat=02 أزياء|عام
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=21&subcat=06&search=books إحصاء
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=21&subcat=16&search=books أمراض إجتماعية
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=21&subcat=13&search=books الإرشاد والتوجيه
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=21&subcat=04&search=books الإعاقة والإحتياجات الخاصة
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=21&subcat=10&search=books التراث الشعبي
