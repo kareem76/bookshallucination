@@ -1,7 +1,2 @@
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=14&subcat=04&l2subcat=02 شؤون المرأة|الإجتماعية
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=14&subcat=04&l2subcat=03 شؤون المرأة|السياسية
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=14&subcat=04&l2subcat=04 شؤون المرأة|الشخصية
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=14&subcat=04&l2subcat=01 شؤون المرأة|الفكرية
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=14&subcat=04&l2subcat=05 شؤون المرأة|دينية
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=14&subcat=12&search=books عام
-https://www.neelwafurat.com/browsel1.aspx?cat=14&subcat=10&search=books نشاطات يدوية
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=03&subcat=08&search=books سياسيون وعسكريون
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=03&subcat=12&search=books صحافيون

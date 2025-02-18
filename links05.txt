@@ -1,1 +1,6 @@
-https://www.neelwafurat.com/browsel1.aspx?cat=14&subcat=06&search=books جنس
+https://www.neelwafurat.com/browsel1.aspx?cat=03&subcat=03&search=books أدباء
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=03&subcat=03&l2subcat=02 أدباء|شعراء
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=03&subcat=03&l2subcat=01 أدباء|كتاب
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=03&subcat=14&search=books أعلام
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=03&subcat=13&search=books إقتصاديون
+https://www.neelwafurat.com/browsel1.aspx?cat=03&subcat=04&search=books رجال دين

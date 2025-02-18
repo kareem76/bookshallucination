@@ -1,20 +1,5 @@
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=21&subcat=11&search=books التفاعل الإجتماعي
-https://www.neelwafurat.com/browsel1.aspx?cat=21&subcat=08&search=books الخدمات الإجتماعية
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=21&subcat=08&l2subcat=01 الخدمات الإجتماعية|التأمين
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=21&subcat=08&l2subcat=03 الخدمات الإجتماعية|النوادي العامة
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=21&subcat=08&l2subcat=05 الخدمات الإجتماعية|عام
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=21&subcat=08&l2subcat=04 الخدمات الإجتماعية|علم الجريمة
-https://www.neelwafurat.com/browsel1.aspx?cat=21&subcat=09&search=books العادات والآداب والسلوك
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=21&subcat=09&l2subcat=04 العادات والآداب والسلوك|الإتيكيت
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=21&subcat=09&l2subcat=02 العادات والآداب والسلوك|الأدب والسلوك
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=21&subcat=09&l2subcat=01 العادات والآداب والسلوك|الأزياء والمظهر الشخصي
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=21&subcat=09&l2subcat=03 العادات والآداب والسلوك|الفلكلور
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=21&subcat=12&search=books العمل الإجتماعي التطوعي
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=21&subcat=07&search=books القانون الإجتماعي
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=21&subcat=17&search=books المشاكل الإجتماعية
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=21&subcat=15&search=books المنظمات الإجتماعية
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=21&subcat=19&search=books حضارة وثقافة شعوب
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=21&subcat=14&search=books عام
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=21&subcat=01&search=books علم إجتماع
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=21&subcat=05&search=books علم السكان
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=21&subcat=18&search=books وسائل اتصال
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=03&subcat=06&search=books كتاب
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=03&subcat=09&search=books مستشرقون
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=03&subcat=02&search=books معلمون
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=03&subcat=16&search=books مفكرون
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=03&subcat=07&search=books نساء
