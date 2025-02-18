@@ -1,6 +1,7 @@
-https://www.neelwafurat.com/browsel1.aspx?cat=03&subcat=03&search=books أدباء
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=03&subcat=03&l2subcat=02 أدباء|شعراء
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=03&subcat=03&l2subcat=01 أدباء|كتاب
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=03&subcat=14&search=books أعلام
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=03&subcat=13&search=books إقتصاديون
-https://www.neelwafurat.com/browsel1.aspx?cat=03&subcat=04&search=books رجال دين
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=17&subcat=16&l2subcat=02 صيدلة|أدوية
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=17&subcat=16&l2subcat=03 صيدلة|عام
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=17&subcat=16&l2subcat=01 صيدلة|علم العقاقير
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=17&subcat=14&search=books عالم البحار
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=17&subcat=19&search=books عام
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=17&subcat=01&search=books علم الفلك
+https://www.neelwafurat.com/browsel1.aspx?cat=17&subcat=15&search=books علم النبات

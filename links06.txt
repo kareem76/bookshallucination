@@ -1,2 +1,8 @@
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=03&subcat=04&l2subcat=01 رجال دين|مسلمين
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=03&subcat=04&l2subcat=02 رجال دين|مسيحيين
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=17&subcat=15&l2subcat=03 علم النبات|طب الأعشاب
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=17&subcat=15&l2subcat=01 علم النبات|نباتات برية
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=17&subcat=15&l2subcat=02 علم النبات|نباتات منزلية
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=17&subcat=13&search=books علم الوراثة
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=17&subcat=10&search=books علوم تطبيقية
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=17&subcat=07&search=books فيزياء
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=17&subcat=08&search=books كيمياء
+https://www.neelwafurat.com/browsel1.aspx?cat=17&subcat=06&search=books هندسة

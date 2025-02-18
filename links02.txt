@@ -1,3 +1,8 @@
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=06&subcat=05&search=books أولاد
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=06&subcat=04&search=books حمية وصحة
-https://www.neelwafurat.com/browsel1.aspx?cat=06&subcat=08&search=books طرق الطهي
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=17&subcat=04&search=books الطبيعة
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=17&subcat=18&search=books المناخ والطقس
+https://www.neelwafurat.com/browsel1.aspx?cat=17&subcat=09&search=books بيئة
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=17&subcat=09&l2subcat=01 بيئة|التلوث
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=17&subcat=09&l2subcat=03 بيئة|الصحة البيئية
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=17&subcat=09&l2subcat=02 بيئة|الطاقة
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=17&subcat=09&l2subcat=04 بيئة|عام
+https://www.neelwafurat.com/browsel1.aspx?cat=17&subcat=17&search=books بيولوجيا
