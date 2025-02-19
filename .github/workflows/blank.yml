@@ -14,8 +14,13 @@ jobs:
     strategy:
       matrix:
         batch: 
-          - { start: 20, end: 22 }
-          - { start: 70, end: 72 }
+          - { start: 00, end: 25 }
+          - { start: 26, end: 50 }
+          - { start: 51, end: 100 }
+          - { start: 101, end: 150 }
+          - { start: 151, end: 200 }
+          - { start: 201, end: 231 }
+          - 
           
          
 
