@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        part: [ links04]  # Runs 9 parallel jobs
+        part: [ links01, links02, links03,links04]  # Runs 9 parallel jobs
 
     steps:
       - name: Checkout code
