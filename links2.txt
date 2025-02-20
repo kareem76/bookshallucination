@@ -1,6 +1,4 @@
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=25&subcat=09&search=books علم النفس الإجتماعي
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=25&subcat=05&search=books علم النفس التربوي
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=25&subcat=10&search=books علم النفس المعرفي
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=25&subcat=12&search=books علم النفس المقارن
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=25&subcat=07&search=books علم نفس الأطفال
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=25&subcat=02&search=books ميتافيزياء وتخاطر
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=17&subcat=06&l2subcat=04 هندسة|هندسة مدنية
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=17&subcat=06&l2subcat=03 هندسة|هندسة معمارية
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=17&subcat=06&l2subcat=05 هندسة|هندسة ميكانيك
+https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=17&subcat=06&l2subcat=09 هندسة|وسائل النقل
