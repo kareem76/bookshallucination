@@ -122,5 +122,5 @@ end_page = ARGV[1].to_i
 
 #puts "🚀 Starting BookScraper from Page #{start_page} to #{end_page}"
 scraper = BookScraper.new("output")
-scraper.scrape_books("https://www.neelwafurat.com/browse1.aspx?ddmsubject=17&subcat=05&search=books ", " رياضيات", start_page, end_page)
+scraper.scrape_books("https://www.neelwafurat.com/browse1.aspx?ddmsubject=17&subcat=05&search=books", "رياضيات", start_page, end_page)
 #puts "✅ Scraping completed!"
