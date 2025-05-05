@@ -1,19 +1,16 @@
-name: Scrape Books
+name: Scrape Doha Book Fair
 
 on:
   push:
     branches:
-      - main  # Trigger on push to the 'main' branch
+      - dohabookfair
   pull_request:
     branches:
-      - main  # Trigger on pull request to the 'main' branch
+      - dohabookfair
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        part: [ links01, links02]  # Runs 9 parallel jobs
 
     steps:
       - name: Checkout code
@@ -22,18 +19,27 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.0'  # Adjust as needed
+          ruby-version: '3.0'  # Adjust if needed
 
-      - name: Install dependencies
+      - name: Install system dependencies
         run: |
-          gem install capybara selenium-webdriver mechanize json parallel
+          sudo apt-get update
+          sudo apt-get install -y google-chrome-stable
+          sudo apt-get install -y chromium-chromedriver
+
+      - name: Install Ruby gems
+        run: |
+          gem install bundler
+          bundle install || gem install capybara selenium-webdriver json mechanize
 
       - name: Run the scraper
+        env:
+          DISPLAY: :99
         run: |
-          ruby scrape_books.rb ${{ matrix.part }}.txt  # Run with correct file
+          ruby bookdoha.rb  # or bookdoha.rb
 
-      - name: Upload JSON artifact
+      - name: Upload JSON artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: results-${{ matrix.part }}
-          path: ${{ matrix.part }}-books.json
+          name: doha-json
+          path: '**/*.json'
