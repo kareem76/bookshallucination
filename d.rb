@@ -1,120 +1,119 @@
 require 'capybara'
 require 'capybara/dsl'
 require 'selenium-webdriver'
-require 'mechanize'
-require 'csv'
 require 'json'
-require 'fileutils'
-require 'parallel'
+require 'set'
 
-# Capybara Configuration
-Capybara.default_driver = :selenium_headless
-Capybara.register_driver :selenium_headless do |app|
-  options = Selenium::WebDriver::Firefox::Options.new
+Capybara.register_driver :chrome do |app|
+  options = Selenium::WebDriver::Chrome::Options.new
   options.add_argument('--headless')
   options.add_argument('--disable-gpu')
-  options.add_argument('--window-size=1920,1080')
-  Capybara::Selenium::Driver.new(app, browser: :firefox, options: options)
+  options.add_argument('--no-sandbox')
+  options.add_argument('--disable-dev-shm-usage')
+
+  Capybara::Selenium::Driver.new(app, browser: :chrome, options: options)
 end
+
+Capybara.default_driver = :chrome
 Capybara.default_max_wait_time = 10
 
-class BookScraper
+
+
+class DohaBookFairScraper
   include Capybara::DSL
 
-  def initialize(output_prefix)
-    @mechanize = Mechanize.new
-    @csv_file = "#{output_prefix}-books.csv"
-    @json_file = "#{output_prefix}-books.json"
+  def start
+    visit 'https://www.dohabookfair.qa/الزوار/ابحث-عن-كتاب/'
 
-    # Ensure output files exist
-    FileUtils.touch(@csv_file) unless File.exist?(@csv_file)
-    FileUtils.touch(@json_file) unless File.exist?(@json_file)
-
-    @csv = CSV.open(@csv_file, 'a', headers: ['Title', 'Author', 'Genre', 'Book URL', 'Image', 'Year', 'Publisher', 'summary', 'ISBN', 'Price (USD)', 'Page URL'])
-    @json = []
-  end
-
-  def extract_price(book_page)
-    price_text = book_page.at('b.ourprice')&.text&.strip
-    return nil unless price_text
-    price_text.split(' ').first.to_f rescue nil
-  end
-
-  def scrape_books(genre_url, genre)
-    puts "Scraping books for genre: #{genre}"
-    session = Capybara::Session.new(:selenium_headless)  # New session per thread
-    session.visit(genre_url)
-
-    loop do
-      current_page_url = session.current_url
-
-      session.all('.gridview .imggrid a').each do |book_link|
-        book_url = book_link['href']
-        puts "Processing book: #{book_url} (Page URL: #{current_page_url})"
-
-        begin
-          book_page = @mechanize.get(book_url)
-        rescue StandardError => e
-          puts "Error accessing book URL #{book_url}: #{e.message}"
-          next
-        end
-
-        title = book_page.at('div.p-title')&.text&.strip
-        author = book_page.at('div.p-author')&.text&.strip&.gsub(/^لـ /, '')
-        image_url = book_page.at('.p-cover img')&.[]('src')
-        year = year = book_page.at('.p-info b:contains("تاريخ النشر")')&.next&.text&.strip
-        publisher = book_page.at('.p-info b:contains("الناشر")')&.next&.text&.strip
-        isbn = book_page.at('.p-info b:contains("ردمك")')&.next&.text&.strip
-        # Extracting the summary from the <d> tag within the <span> with class 'desc nabza'
-   # Extracting the summary from the <d> tag within the <span> with class 'desc nabza'
-d_content = book_page.at('span.desc.nabza d')
-
-if d_content
-  # Remove all <span> tags from the <d> content
-  d_content.search('span').each(&:remove)
-
-  # Get the cleaned text from the <d> tag
-  summary = d_content.text.strip
-
-  # Check if the summary is empty
-  if summary.empty?
-    summary = "null"
-  end
-else
-  summary = "null"
+    # Fetch all category values first (value + name)
+categories = []
+visit 'https://www.dohabookfair.qa/الزوار/ابحث-عن-كتاب/'
+select = find('select#strSubject', visible: false)
+select.all('option').each do |o|
+  next if o.text.include?('اختر')
+  categories << [o.text.strip, o[:value]]
 end
-        local_price = extract_price(book_page)
-        rate = 0.33
-        usd_price = (local_price * rate).to_i if local_price
 
-        @csv << [title, author, genre, book_url, image_url, year, publisher, isbn, summary, usd_price, current_page_url]
-        @json << { title: title, author: author, genre: genre, book_url: book_url, image: image_url, year: year,
-                   publisher: publisher, summary: summary, isbn: isbn, price_in_usd: usd_price, page_url: current_page_url }
-        File.open(@json_file, 'a') { |f| f.write(JSON.generate(@json.last) + "\n") }
+categories.each do |category_name, category_value|
+
+      #category_name = opt.text.strip
+      #category_value = opt[:value]
+      filename = "#{category_name.gsub(/[^\p{Arabic}\w\s\-]/, '').gsub(/\s+/, '_')}.json"
+
+      puts "==> Scraping category: #{category_name}"
+
+      # Reset page, state and visited titles
+      visit 'https://www.dohabookfair.qa/الزوار/ابحث-عن-كتاب/'
+      sleep 2
+
+      execute_script(<<~JS, category_value)
+        var select = document.getElementById('strSubject');
+        select.value = arguments[0];
+        var event = new Event('change', { bubbles: true });
+        select.dispatchEvent(event);
+      JS
+
+      sleep 1
+      find('button#btnSearch').click
+      sleep 3
+
+      begin
+        find('select#maxRows').select('500')
+        sleep 2
+      rescue
+        puts "⚠️ Could not set 500 rows for #{category_name}"
+        next
       end
 
-      next_button = begin
-        session.first('img[src$="arrowr.png"]', visible: true)
-      rescue StandardError
-        nil
-      end
-      break if next_button.nil?
+      all_data = []
+      seen_titles = Set.new
+      loop do
+        begin
+          rows = all('#BookList_Result.table tbody tr')
+          break if rows.empty?
 
-      next_button.click
-      sleep 5
+          data = rows.map do |tr|
+            values = tr.all('td').map { |td| td.text.strip }
+            {
+              title:     values[1],
+              category:  values[2],
+              author:    values[3],
+              year:      values[4],
+              publisher: values[5],
+              country:   values[6],
+              price:     values[7],
+              hall:      values[8]
+            }
+          end
+
+          new_data = data.reject { |row| seen_titles.include?(row[:title]) }
+
+          break if new_data.empty? # nothing new = we reached the end
+
+          new_data.each { |row| seen_titles << row[:title] }
+          all_data.concat(new_data)
+
+          puts "🔹 Fetched #{new_data.size} new books (total: #{seen_titles.size})"
+
+          # Go to next page
+          links = all('a.page-link', minimum: 1)
+          next_link = links.last
+          break if next_link[:class]&.include?('disabled')
+          next_link.click
+          sleep 2
+        rescue => e
+          puts "⚠️ Pagination failed: #{e.message}"
+          break
+        end
+      end
+
+      File.write(filename, JSON.pretty_generate(all_data))
+      puts "✅ Saved #{all_data.size} unique books to #{filename}"
+    rescue => e
+      puts "❌ Error scraping category #{category_name}: #{e.message}"
     end
   end
 end
 
-# Get input file from command line argument (or default to 'links.txt')
-input_file = ARGV[0] || 'links.txt'
-output_prefix = File.basename(input_file, '.txt')  # Generate output filenames based on input file
 
-# Read links from the specified input file
-links = File.readlines(input_file).map(&:strip).map { |line| line.split(' ', 2) }.reject { |entry| entry.any?(&:nil?) }
-
-# Run with parallel processing (2 threads per job)
-Parallel.each(links, in_threads: 2) do |(category_url, genre)|
-  scraper = BookScraper.new(output_prefix)
-  scraper.scrape_books(category_url, genre)
-end
+DohaBookFairScraper.new.start
