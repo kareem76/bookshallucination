@@ -3,20 +3,14 @@ require 'capybara/dsl'
 require 'selenium-webdriver'
 require 'json'
 require 'set'
-
-Capybara.register_driver :chrome do |app|
-  options = Selenium::WebDriver::Chrome::Options.new
-  options.add_argument('--headless')
-  options.add_argument('--disable-gpu')
-  options.add_argument('--no-sandbox')
-  options.add_argument('--disable-dev-shm-usage')
-
-  Capybara::Selenium::Driver.new(app, browser: :chrome, options: options)
+Capybara.default_driver = :selenium
+Capybara.register_driver :selenium do |app|
+  options = Selenium::WebDriver::Firefox::Options.new
+  options.add_argument('--headless') # headless for GitHub Actions or CLI
+  Capybara::Selenium::Driver.new(app, browser: :firefox, options: options)
 end
 
-Capybara.default_driver = :chrome
 Capybara.default_max_wait_time = 10
-
 
 
 class DohaBookFairScraper

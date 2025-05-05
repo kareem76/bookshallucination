@@ -19,7 +19,7 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.3.4'  # Adjust if needed
+          ruby-version: '3.2.2'  # Adjust if needed
 
       - name: Install system dependencies
         run: |
@@ -30,7 +30,7 @@ jobs:
       - name: Install Ruby gems
         run: |
           gem install bundler
-          bundle install || gem install capybara selenium-webdriver json mechanize
+          bundle install || gem install capybara selenium-webdrivers json mechanize
 
       - name: Run the scraper
         env:
