@@ -36,7 +36,7 @@ jobs:
         env:
           DISPLAY: :99
         run: |
-          ruby d.rb  # or bookdoha.rb
+          ruby d.rb  
 
       - name: Upload JSON artifacts
         uses: actions/upload-artifact@v4

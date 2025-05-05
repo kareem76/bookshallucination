@@ -33,7 +33,7 @@ select.all('option').each do |o|
   next if o.text.include?('اختر')
   categories << [o.text.strip, o[:value]]
 end
-
+puts "to"
 categories.each do |category_name, category_value|
 
       #category_name = opt.text.strip
