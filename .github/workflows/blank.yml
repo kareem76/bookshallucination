@@ -3,10 +3,10 @@ name: Scrape Doha Book Fair
 on:
   push:
     branches:
-      - dohabookfair
+      - booky
   pull_request:
     branches:
-      - dohabookfair
+      - booky
 
 jobs:
   scrape:
