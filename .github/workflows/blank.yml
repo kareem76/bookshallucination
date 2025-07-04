@@ -14,7 +14,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        part: [ links, links01]  # Runs 9 parallel jobs
+        part: [ links, links01, links02, links03, links04]  # Runs 9 parallel jobs
 
     steps:
       - name: Checkout code
