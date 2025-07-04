@@ -115,7 +115,7 @@ output_prefix = File.basename(input_file, '.txt')  # Generate output filenames b
 links = File.readlines(input_file).map(&:strip).map { |line| line.split(' ', 2) }.reject { |entry| entry.any?(&:nil?) }
 
 # Run with parallel processing (2 threads per job)
-Parallel.each(links, in_threads: 2) do |(category_url, genre)|
+links.each do |(category_url, genre)|
   scraper = BookScraper.new(output_prefix)
   scraper.scrape_books(category_url, genre)
 end
