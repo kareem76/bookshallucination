@@ -12,6 +12,7 @@ jobs:
   scrape:
     runs-on: ubuntu-latest
     strategy:
+    fail-fast: false
       matrix:
         part: [ links, links01, links02, links03, links04, links05, links06, links07]  # Runs 9 parallel jobs
 
