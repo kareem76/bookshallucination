@@ -1,8 +1,11 @@
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=17&subcat=15&l2subcat=03 علم النبات|طب الأعشاب
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=17&subcat=15&l2subcat=01 علم النبات|نباتات برية
-https://www.neelwafurat.com/browse1.aspx?search=books&ddmSubject=17&subcat=15&l2subcat=02 علم النبات|نباتات منزلية
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=17&subcat=13&search=books علم الوراثة
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=17&subcat=10&search=books علوم تطبيقية
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=17&subcat=07&search=books فيزياء
-https://www.neelwafurat.com/browse1.aspx?ddmsubject=17&subcat=08&search=books كيمياء
-https://www.neelwafurat.com/browsel1.aspx?cat=17&subcat=06&search=books هندسة
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=09&subcat=02&search=books إقتصاد وتنمية زراعية
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=09&subcat=04&search=books إنتاج وحماية المحاصيل
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=09&subcat=05&search=books استصلاح وري الأراضي
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=09&subcat=10&search=books الأسمدة والمبيدات
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=09&subcat=11&search=books الأشجار المثمرة
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=09&subcat=13&search=books الأمراض والآفات الزراعية
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=09&subcat=12&search=books الغابات
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=09&subcat=08&search=books تغذية
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=09&subcat=06&search=books زراعة عامة
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=09&subcat=14&search=books عام
+https://www.neelwafurat.com/browse1.aspx?ddmsubject=09&subcat=09&search=books علم التربة
