@@ -1,47 +1,46 @@
-name: Scraping Books
+name: Scrape Books
 
 on:
   push:
     branches:
-      - eachloop  # Trigger on push to the 'eachloop' branch
+      - eachloop  # Trigger on push to the 'main' branch
   pull_request:
     branches:
-      - eachloop  # Trigger on pull request to the 'eachloop' branch
+      - eachloop  # Trigger on pull request to the 'main' branch
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
     strategy:
+      fail-fast: false
       matrix:
-        batch: 
-          - { start: 00, end: 25 }
-          - { start: 26, end: 50 }
-          - { start: 51, end: 100 }
-          - { start: 101, end: 150 }
-          - { start: 151, end: 200 }
-          - { start: 201, end: 231 }
-          
-          
-         
+        part: [ links, links01, links02]  # Runs 9 parallel jobs
 
     steps:
-      - name: Checkout repository
+      - name: Checkout code
         uses: actions/checkout@v4
 
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.2
+          ruby-version: '3.0'  # Adjust as needed
+
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y google-chrome-stable
+        
 
       - name: Install dependencies
-        run: bundle install
-
-      - name: Run scraper and create JSON artifact
         run: |
-          ruby scraping.rb ${{ matrix.batch.start }} ${{ matrix.batch.end }} > ${{ matrix.batch.start }}-${{ matrix.batch.end }}.json
+          gem install capybara selenium-webdriver mechanize json parallel
+
+      - name: Run the scraper
+        run: |
+          ruby scrape_books.rb ${{ matrix.part }}.txt  # Run with correct file
 
       - name: Upload JSON artifact
         uses: actions/upload-artifact@v4
         with:
-          name: batch-${{ matrix.batch.start }}-${{ matrix.batch.end }}
-          path: ${{ matrix.batch.start }}-${{ matrix.batch.end }}.json
+          name: results-${{ matrix.part }}
+          path: ${{ matrix.part }}-books.json
